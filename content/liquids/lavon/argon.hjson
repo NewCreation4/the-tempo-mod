@@ -1,0 +1,5 @@
+name: Argon
+description: "Used in the production of other materials."
+color: B69BEC
+coolant: false
+gas: true

@@ -1,0 +1,71 @@
+type: tank
+name: Arty
+description: Fires basic high-explosive artillery shells that are more effective against buildings, but are way weaker against armored targets. Is lightly armored and somewhat fast.
+hitSize: 12
+treadPullOffset: 10
+treadRects: [
+  {
+    x: -18 // 14 - 32
+    y: -30 // 2 - 32
+    width: 13
+    height: 60
+  }
+]
+
+health: 150
+armor: 9
+speed: 0.8
+rotateSpeed: 3
+itemCapacity: 0
+
+targetAir: false
+omniMovement: false
+faceTarget: false
+
+weapons: [
+  {
+    x: 0
+    y: -1.5
+    name: field-cannon
+    reload: 120
+    mirror: false
+    shootSound: shootArtillery
+    ejectEffect: casing3
+    rotateSpeed: 2
+    predictTarget: false
+    rotate: true
+    inaccuracy: 2
+    shootY: 9
+
+    bullet: {
+      type: ArtilleryBulletType
+      width: 9
+      height: 13
+      lifeScaleRandMin: 0.96
+      lifeScaleRandMax: 1.04
+      splashDamageRadius: 40
+      splashDamage: 45
+      armorMultiplier: 5
+      speed: 4.5
+      lifetime: 40
+      status: blasted
+      statusDuration: 60
+
+      trailWidth: 3
+      trailLength: 5
+      shootSound: artillery
+      trailColor: f9c27aff
+      despawnEffect: {
+        type: ExplosionEffect
+        waveColor: e1e1e1
+        smokeColor: 6D6761
+        waveStroke: 4
+        waveRad: 36
+      }
+      hitShake: 5
+      collidesAir: false
+    }
+  }
+]
+
+research: unit-fabricator

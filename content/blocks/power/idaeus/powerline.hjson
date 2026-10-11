@@ -1,0 +1,20 @@
+type: PowerNode
+category: power
+name: Sea Node
+description: Transports power to structures. Can be placed on deep water.
+size: 1
+
+health: 45
+armor: 0
+placeableLiquid: true
+
+maxNodes: 10
+laserRange: 6
+
+//research: kinetic-extractor
+alwaysUnlocked: true
+researchCostMultiplier: 0.5
+requirements: [
+  silver/10
+  graphite/4
+]

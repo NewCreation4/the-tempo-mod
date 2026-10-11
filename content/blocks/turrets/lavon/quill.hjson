@@ -1,0 +1,79 @@
+type: ItemTurret
+category: turret
+name: Quill
+description: Fires bursts of homing, piercing and corrosive projectiles.
+size: 3
+
+reload: 90
+inaccuracy: 0
+range: 240
+health: 2007
+targetAir: true
+
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.2
+}
+
+
+maxAmmo: 20
+ammoPerShot: 4
+shoot: {
+  type: ShootAlternate
+  spread: 2
+  shots: 7
+  barrels: 7
+}
+
+consumes: {
+  power: 2
+}
+
+outlineRadius: 3
+shootSound: shootReign
+
+ammoTypes: {
+  fluorite: {
+    type: BasicBulletType
+    width: 9
+    height: 11
+    frontColor: DAB560
+    backColor: DAB560
+    speed: 5
+    lifetime: 48
+    damage: 18
+    status: corroding
+    statusDuration: 300
+    pierceCap: 7
+    pierce: true
+    pierceBuilding: true
+    armorMultiplier: 0.75
+    ammoMultiplier: 1
+    homingRange: 80
+    homingPower: 0.05
+    trailWidth: 1.6
+    trailLength: 7
+    hitColor: DAB560
+    trailColor: DAB560
+    //trailEffect: disperseTrail
+  }
+}
+
+researchCostMultiplier: 0.25
+research: {
+  parent: radiance
+  objectives: [
+    fluorite,
+    {
+      type: SectorComplete
+      preset: neo-outpost
+    }
+  ]
+}
+requirements: [
+  beryllium/100
+  titanium/120
+  silicon/100
+]

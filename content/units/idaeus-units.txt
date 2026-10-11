@@ -1,0 +1,27 @@
+   Tanks
+# [T1] Light Tank: Glony-296
+- Cheap, fast to produce
+- Ok range and damage
+- Lightly armored (10), 150 health
+- Fastest movement speed and turret turn speed
+- Immune to the wet status effect, amphibious
+
+# [T2] Medium Tank: Makrofagi-23-08
+- Moderate cost and production speed
+- Better range (still gets hit by Anti) and damage, low armor piercing
++ Has an autocannon for lightly armored ground threats (less range than main gun, automatically fires)
+- Moderately armored (25), 300 health
+- Somewhat fast movement and turret turning
+
+# [T3] Battle tank
+- Moderate cost and production speed (slightly higher than medium tank though)
+- Outranges Anti, good damage and moderate armor piercing
++ Has an autocannon for lightly armored ground threats (equal range as the main gun, automatically fires)
+- Decent armor (30), 450 health
+- Somewhat fast movement and turret turning
+
+# [T3] Heavy tank 
+- Expensive, slow to produce
+- Outranges Anti, lots of damage and moderate armor piercing
+- Heavy armor (40), 450 health
+- Very slow movement and turret turning

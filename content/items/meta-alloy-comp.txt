@@ -1,0 +1,3 @@
+3 chromium
+1 titanium
+1 cobalt 

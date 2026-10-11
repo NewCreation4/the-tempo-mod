@@ -1,0 +1,7 @@
+type: RainWeather
+name: Purple Rain
+liquid: purple-water
+color: A07DE7
+status: wet
+sound: rain
+//soundVol: 0.25

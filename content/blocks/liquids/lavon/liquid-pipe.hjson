@@ -1,0 +1,15 @@
+type: Conduit
+name: Liquid Pipe
+description: Transports liquids forward.
+category: liquid
+health: 250
+research: basic-duct
+requirements: [
+  titanium/2
+]
+
+liquidCapacity: 50
+leaks: true
+junctionReplacement: liquid-pipe-junction
+rotBridgeReplacement: liquid-overpass
+underBullets: true

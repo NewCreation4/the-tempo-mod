@@ -1,0 +1,20 @@
+type: Drill
+name: Tidal Drill
+size: 2
+description: Drills ores from tiles underneath itself.
+details: Can be placed on the edges of deep water.
+drillTime: 580
+tier: 2
+rotateSpeed: 2.5
+drawMineItem: true
+category: production
+floating: true
+placeableLiquid: true
+
+hasLiquids: false
+
+requirements: [
+ silver/16
+]
+
+research: exponentiation

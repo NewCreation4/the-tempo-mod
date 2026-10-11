@@ -1,0 +1,22 @@
+type: RepairTower
+name: Unit Mender
+description: Repairs units within range. Requires power.
+size: 2
+category: units
+requirements: [
+  beryllium/50
+  silicon/70
+  titanium/90
+]
+researchCostMultiplier: 0.5
+research: unit-fabricator
+range: 80
+
+circleColor: 84F491
+glowColor: 84F491
+
+healAmount: 4
+consumes: {
+  power: 1.25
+  liquid: ozone/0.0333333333
+}

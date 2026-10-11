@@ -1,0 +1,33 @@
+category: turret
+name: Fury Turret
+description: A turret that shoots faster the more damaged it is
+size: 3
+
+solid: true
+update: true
+
+//health: 3200
+// reload: 60 // goes down to ~15 when 1
+range: 360
+
+ammoTypes: {
+  titanium: {
+    type: BasicBulletType
+    width: 10
+    height: 50
+    speed: 5
+    lifetime: 60
+    damage: 25
+    ammoMultiplier: 1
+    collidesAir: false
+
+    trailWidth: 3.5
+    trailLength: 10
+    trailColor: f9c27aff
+  }
+}
+
+research: reinforced-titanium-wall
+requirements: [
+  titanium/67
+]

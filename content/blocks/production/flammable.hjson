@@ -1,0 +1,24 @@
+type: GenericCrafter
+category: crafting
+name: Flammable Block
+description: "Flammability scale test"
+size: 3
+health: 640
+
+itemCapacity: 10
+liquidCapacity: 120
+consumes: {
+  power: 0.01
+}
+craftTime: 120
+outputItems: [
+  sulphur/1
+]
+
+ambientSound: loopMachine
+craftEffect: none
+
+requirements: [
+  brookite/50
+  titanium/95
+]

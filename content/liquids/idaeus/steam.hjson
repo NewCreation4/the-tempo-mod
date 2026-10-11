@@ -1,0 +1,8 @@
+name: Steam
+description: "Used to power primitive structures."
+color: FFFFFF
+flammability: 0
+explosiveness: 0.25
+heatCapacity: 0
+temperature: 0.75
+gas: true

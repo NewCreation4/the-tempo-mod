@@ -1,0 +1,4 @@
+type: OreBlock
+name: Sulphur
+variants: 3
+itemDrop: sulphur

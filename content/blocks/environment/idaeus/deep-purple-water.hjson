@@ -1,0 +1,13 @@
+type: Floor
+name: Deep Purple Water
+liquidDrop: purple-water
+isLiquid: true
+
+speedMultiplier: 0.2
+variants: 0
+liquidMultiplier: 1.5
+status: wet
+statusDuration: 180
+drownTime: 200
+cacheLayer: water
+albedo: 0.9

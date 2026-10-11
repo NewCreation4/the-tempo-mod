@@ -1,0 +1,5 @@
+type: OreBlock
+name: Fluorite
+variants: 3
+itemDrop: fluorite
+wallOre: true

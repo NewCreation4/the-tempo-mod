@@ -1,0 +1,61 @@
+type: ContinuousLiquidTurret
+name: Eviscerate
+description: Releases a constant beam of gas, afflicting enemies with special effects depending on the gas given.
+health: 2040
+size: 3
+category: turret
+liquidConsumed: 0.25
+targetInterval: 5
+targetUnderBlocks: false
+range: 160
+targetAir: true
+shootY: -2.5
+shootSound: none
+research: quill
+
+loopSound: shootSublimate
+loopSoundVolume: 0.7
+
+requirements: [
+  beryllium/120
+  silicon/110
+  cobalt/90
+  meta-alloy/225
+]
+
+ammoTypes: {
+  ozone: {
+    width: 3
+    drawFlare: false
+    hitColor: e189f5
+    type: ContinuousFlameBulletType
+    damage: 50
+    length: 161
+    knockback: 1
+    pierceCap: 3
+
+    colors: [eb7abe, e189f5, 907ef7, 91a4ff, ffffff]
+    lightColor: e189f5
+ 
+    buildingDamageMultiplier: 0.25
+    timescaleDamage: true
+  }
+  fluorine: {
+    width: 3
+    drawFlare: false
+    hitColor: E2EB71
+    type: ContinuousFlameBulletType
+    damage: 135
+    length: 161
+    knockback: 1
+    pierceCap: 3
+
+    colors: [DDD53A, D8D46C, E2EB71, FFFFFF]
+    lightColor: E2EB71
+
+    buildingDamageMultiplier: 0.25
+    timescaleDamage: true
+    status: corroding
+    statusDuration: 240
+  }
+}

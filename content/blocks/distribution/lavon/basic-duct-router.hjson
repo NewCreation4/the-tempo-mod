@@ -1,0 +1,15 @@
+type: DuctRouter
+category: distribution
+name: Duct Router
+description: Splits items into 3 other lines.
+size: 1
+
+itemCapacity: 1
+speed: 1
+health: 100
+
+research: basic-duct-junction
+requirements: [
+  beryllium/1
+  titanium/3
+]

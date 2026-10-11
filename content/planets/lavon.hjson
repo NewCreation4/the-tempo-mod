@@ -1,0 +1,90 @@
+localizedName: Lavon
+
+mesh: {
+  type: NoiseMesh
+  planet: lavon
+  seed: 69
+  divisions: 5
+  color1: c2bffb
+  color2: e9ebff
+  radius: 0.9
+  octaves: 3
+  persistence: 0.8
+  scale: 1
+  mag: 0.5
+  bloom: false
+}
+cloudMesh: {
+  type: HexSkyMesh
+  seed: 92
+  speed: 0.5
+  radius: 0.07
+  divisions: 5
+  color: ffffff77
+  octaves: 3
+  persistence: 0.8
+  scl: 2
+  thresh: 0.3
+}
+
+generator: {
+  min: 1
+  max: 1
+
+  octaves: 2
+  persistence: 0.4
+  scale: 30
+  mag: 0.4
+  thresh: 1
+  foct: 3
+  fmag: 0.5
+  fscl: 50
+  fper: 0.6
+
+  # Asteroid radius range.
+  radMin: 600
+  radMax: 600
+
+  //stoneChance: 0
+
+  iceChance: 0.2
+  //carbonChance: 0.1
+  berylChance: 0.5
+  //ferricChance: 0
+}
+
+startSector: 21
+sectorSize: 2
+alwaysUnlocked: true
+allowLaunchSchematics: true
+allowLaunchLoadout: true
+clearSectorOnLose: true
+allowSectorInvasion: true
+allowLaunchToNumbered: true // false when for players, true to find good sector
+tidalLock: true
+allowWaves: true
+prebuildBase: false
+orbitSpacing: 1
+orbitRadius: 15 // 25
+orbitTime: 77
+radius: 0.9
+camRadius: 1
+minZoom: 0.2
+drawOrbit: true
+accessible: true
+updateLighting: false
+sectorSeed: 4
+bloom: false
+visible: true
+
+hasAtmosphere: true
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.06
+atmosphereColor: 000030
+
+iconColor: ffffff
+parent: 1-1-verod
+solarSystem: 1-0-kathom
+launchCandidates: []
+
+defaultCore: exponentiation

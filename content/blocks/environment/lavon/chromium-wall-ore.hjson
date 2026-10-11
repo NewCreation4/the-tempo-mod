@@ -1,0 +1,5 @@
+type: OreBlock
+name: Chromium
+variants: 3
+itemDrop: chromium
+wallOre: true

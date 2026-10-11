@@ -1,0 +1,4 @@
+Costs:
+ 100 Titanium
+ 50 Silicon
+ 80 Chromium

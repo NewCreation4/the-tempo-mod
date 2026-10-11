@@ -1,0 +1,74 @@
+type: PowerTurret
+category: turret
+name: Dive
+description: Fires acid bombs from a distance.
+size: 3
+
+reload: 90
+inaccuracy: 2
+range: 240
+health: 1820
+targetAir: false
+
+liquidCapacity: 120
+hasPower: false
+consumes: {
+  liquids: [
+    acid/0.5
+    steam/0.15
+  ]
+}
+
+shootType: {
+  type: ArtilleryBulletType
+  width: 15
+  height: 17
+  trailWidth: 1.51
+  trailLength: 5
+  trailColor: f9c27aff
+  trailEffect: none
+  speed: 5
+  lifetime: 50
+  splashDamage: 55
+  splashDamageRadius: 48
+  scaledSplashDamage: true
+  status: corroding
+  statusDuration: 300
+  knockback: 10
+  puddles: 9
+  puddleAmount: 50
+  puddleRange: 11
+  puddleLiquid: acid
+  fragBullets: 7
+  fragLifeMin: 0.5
+
+  fragBullet: {
+     type: ArtilleryBulletType
+     width: 7
+     height: 9
+     trailWidth: 1.51
+     trailLength: 5
+     trailColor: f9c27aff
+     trailEffect: none
+     speed: 3
+     lifetime: 25
+     splashDamage: 11
+     splashDamageRadius: 24
+     splashDamagePierce: true
+     scaledSplashDamage: true
+     status: corroding
+     statusDuration: 120
+     puddles: 1
+     puddleAmount: 30
+     puddleRange: 1
+     puddleLiquid: acid
+  }
+    
+  trailColor: f9c27aff
+  trailWidth: 2
+}
+
+requirements: [
+  silver/100
+  titanium/200
+]

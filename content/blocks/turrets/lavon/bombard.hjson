@@ -1,0 +1,122 @@
+category: turret
+type: ItemTurret
+name: Bombard
+description: Launches inaccurate explosive rockets at far-away targets
+size: 3
+
+reload: 440
+inaccuracy: 10
+range: 400
+targetAir: false
+health: 2320
+
+maxAmmo: 36
+ammoPerShot: 9
+shoot: {
+  shots: 9
+  shotDelay: 6
+}
+
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.1
+}
+consumes: {
+  liquids: [
+    hydrogen/0.1
+  ]
+}
+
+shootSound: shootArtillery
+ammoTypes: {
+  uranium: {
+      type: ArtilleryBulletType
+      sprite: missile-large
+      width: 8
+      height: 32
+      damage: 100
+      splashDamage: 100
+      splashDamageRadius: 40
+      speed: 7.5
+      ammoMultiplier: 1
+      armorMultiplier: 0.95
+      lifetime: 68
+      status: blasted
+      statusDuration: 60
+      lifeScaleRandMin: 0.85
+      lifeScaleRandMax: 1.15
+
+      trailWidth: 3
+      trailLength: 5
+      trailEffect: none
+      trailColor: f9c27aff
+      despawnEffect: massiveExplosion
+      smokeEffect: {
+        type: ParticleEffect
+        lifetime: 60
+        colorFrom: 000000
+        colorTo: 515151
+        sizeFrom: 4
+        sizeTo: 0
+        sizeInterp: pow2Out
+        cone: 30
+        particles: 5
+        interp: pow4Out
+        followParent: false
+      }
+      hitShake: 3
+      hitSound: explosion
+      collidesAir: false
+      scaleLife: true
+  }
+  fissile-matter: {
+      type: ArtilleryBulletType
+      sprite: missile-large
+      width: 8
+      height: 32
+      damage: 200
+      splashDamage: 200
+      splashDamageRadius: 80
+      ammoMultiplier: 2
+      armorMultiplier: 0.9
+      speed: 7.5
+      lifetime: 68
+      status: blasted
+      statusDuration: 60
+      lifeScaleRandMin: 0.85
+      lifeScaleRandMax: 1.15
+
+      trailWidth: 3
+      trailLength: 5
+      trailEffect: none
+      trailColor: f9c27aff
+      despawnEffect: massiveExplosion
+      smokeEffect: {
+        type: ParticleEffect
+        lifetime: 60
+        colorFrom: 000000
+        colorTo: 515151
+        sizeFrom: 4
+        sizeTo: 0
+        sizeInterp: pow2Out
+        cone: 30
+        particles: 5
+        interp: pow4Out
+        followParent: false
+      }
+      hitShake: 3
+      hitSound: explosion
+      collidesAir: false
+      scaleLife: true
+  }
+}
+
+research: dichrome
+requirements: [
+  beryllium/100
+  silicon/100
+  chromium/110
+  cobalt/90
+]

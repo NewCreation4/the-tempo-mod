@@ -1,0 +1,15 @@
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+      heatProgress: recoil
+      progress: recoil
+      mirror: true
+      moveX: 0.6
+      moveRot: 15
+      under: true
+    }
+  ]
+}

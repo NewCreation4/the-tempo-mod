@@ -1,0 +1,44 @@
+type: ItemTurret
+category: turret
+name: Avalanche
+description: Fires a heavy burst of bullets at both ground and air enemy units
+size: 3
+
+reload: 120
+inaccuracy: 3
+range: 160
+health: 1800
+maxAmmo: 30
+ammoPerShot: 2
+
+shoot: {
+  shots: 6
+  shotDelay: 5
+}
+
+consumes: {
+  liquid: brine/0.5
+}
+
+ammoTypes: {
+  titanium: {
+    type: BasicBulletType
+    width: 5
+    height: 7
+    speed: 8
+    lifetime: 23
+    damage: 19
+    buildingDamageMultiplier: 0.5
+    ammoMultiplier: 1
+    armorMultiplier: 0.95
+    trailWidth: 1.4
+    trailLength: 5
+    trailColor: f9c27aff
+  }
+}
+
+research: exponentiation
+requirements: [
+  beryllium/190
+  silicon/75
+]

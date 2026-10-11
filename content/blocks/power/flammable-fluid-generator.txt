@@ -1,0 +1,14 @@
+type: ConsumeGenerator
+name: Flammable Fluid Generator
+category: power
+hasItems: true
+update: true
+itemCapacity: 10
+
+powerProduction: 1
+
+requirements: [
+  titanium/40
+]
+
+thanks

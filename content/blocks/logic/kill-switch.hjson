@@ -1,0 +1,12 @@
+category: logic
+name: Kill Switch
+description: Kills... you.
+solid: true
+update: true
+
+health: 120
+requirements: [
+  titanium/30
+  silicon/25
+  phase-fabric/40
+]

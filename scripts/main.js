@@ -31,32 +31,6 @@ Events.run(ClientLoadEvent, () => {
 	let vanillaLiquids = [Liquids.ozone, Liquids.hydrogen, Liquids.water]
 
 	let tt = lavon.techTree
-	/*tt.children.add(
-		TechTree.nodeProduce(Items.beryllium, ()=>{
-			TechTree.nodeProduce(Items.silicon, ()=>{})
-			TechTree.nodeProduce(Items.scrap, ()=>{})
-		})
-		TechTree.nodeProduce(Items.titanium, ()=>{
-			TechTree.nodeProduce(modItem("fluorite"), ()=>{
-				TechTree.nodeProduce(modLiquid("fluorine"), ()=>{})
-			})
-			TechTree.nodeProduce(modItem("chromium"), ()=>{
-				TechTree.nodeProduce(modItem("cobalt"), ()=>{
-					TechTree.nodeProduce(modItem("meta-alloy"), ()=>{})
-				})
-				TechTree.nodeProduce(Items.tungsten, ()=>{
-					TechTree.nodeProduce(Items.carbide, ()=>{})
-				})
-			})
-			TechTree.nodeProduce(modLiquid("brine"), ()=>{
-				TechTree.nodeProduce(modItem("magnesium"), ()=>{})
-				TechTree.nodeProduce(modItem("sulphur"), ()=>{})
-				TechTree.nodeProduce(Liquids.ozone, ()=>{})
-				TechTree.nodeProduce(Liquids.hydrogen, ()=>{})
-				TechTree.nodeProduce(Liquids.water, ()=>{})
-			})
-		})
-	}))*/
 	tt.children.add(
 		TechTree.nodeProduce(Items.beryllium, () => {
 			TechTree.nodeProduce(Items.silicon, () => {})

@@ -1,6 +1,6 @@
 type: tank
 name: Omnipresence
-description: Fires basic tank shells. Lightly armored, uses titanium as ammo.
+description: Fires basic tank shells. Lightly armored.
 hitSize: 12
 treadPullOffset: 10
 treadRects: [
@@ -17,12 +17,6 @@ armor: 5
 speed: 0.8
 rotateSpeed: 3
 itemCapacity: 0
-ammoCapacity: 120
-ammoType: {
- type: ItemAmmoType
- item: titanium
- ammoPerItem: 10
-}
 
 targetAir: false
 omniMovement: false

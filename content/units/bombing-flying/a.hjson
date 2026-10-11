@@ -1,5 +1,5 @@
 name: A-17
-description: Unit capable of dropping incendiary sulphur bombs on targets underneath. Lightly armored, uses sulphur as ammo.
+description: Unit capable of dropping incendiary sulphur bombs on targets underneath. Lightly armored.
 flying: true
 
 health: 140
@@ -18,12 +18,6 @@ autoDropBombs: true
 immunities: [freezing, blasted, shocked]
 
 itemCapacity: 0
-ammoCapacity: 120
-ammoType: {
- type: ItemAmmoType
- item: sulphur
- ammoPerItem: 10
-}
 
 weapons: [
   {

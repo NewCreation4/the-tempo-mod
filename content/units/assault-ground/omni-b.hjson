@@ -1,6 +1,6 @@
 type: tank
 name: Omnibenevolence
-description: Fires piercing rounds from a distance, lightly armored, and uses titanium as ammo.
+description: Fires piercing rounds from a distance. Lightly armored.
 hitSize: 20
 treadPullOffset: 3
 treadRects: [
@@ -17,12 +17,6 @@ armor: 15
 speed: 0.725
 rotateSpeed: 3
 itemCapacity: 0
-ammoCapacity: 250
-ammoType: {
- type: ItemAmmoType
- item: titanium
- ammoPerItem: 10
-}
 
 targetAir: false
 omniMovement: false

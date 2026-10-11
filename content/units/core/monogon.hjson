@@ -17,12 +17,6 @@ mineSpeed: 6.5
 
 coreUnitDock: true
 immunities: [freezing]
-ammoCapacity: 400
-ammoType: {
- type: ItemAmmoType
- item: titanium
- ammoPerItem: 400
-}
 
 weapons: [
  {

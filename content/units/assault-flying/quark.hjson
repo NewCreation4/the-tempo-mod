@@ -1,5 +1,5 @@
 name: Quark-1
-description: Rapidly fires weak bullets with a machine gun. Very fast and uses titanium as ammo.
+description: Rapidly fires weak bullets with a machine gun. Very fast.
 flying: true
 targetGround: true
 health: 90
@@ -12,12 +12,6 @@ targetFlags: ["generator"]
 immunities: [freezing]
 
 itemCapacity: 10
-ammoCapacity: 400
-ammoType: {
- type: ItemAmmoType
- item: titanium
- ammoPerItem: 40
-}
 
 weapons: [{
   type: Weapon

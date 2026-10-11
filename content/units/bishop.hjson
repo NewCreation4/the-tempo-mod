@@ -18,10 +18,6 @@ mineTier: 5
 mineSpeed: 5
 targetAir: false
 targetGround: false
-ammoCapacity: 10000
-ammoType: {
- type: PowerAmmoType
-}
 
 engineOffset: 10.5
 engineSize: 2.5

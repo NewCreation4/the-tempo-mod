@@ -1,0 +1,20 @@
+name: Corroding
+damage: 0.15
+transitionDamage: 8
+speedMultiplier: 0.9
+healthMultiplier: 0.9
+opposites: [wet]
+affinities: [burning]
+
+color: E7FF70
+effectChance: 0.1
+effect: {
+  type: ParticleEffect
+  particles: 1
+  sizeFrom: 2
+  sizeTo: 0
+  colorFrom: E7FF70
+  colorTo: BFD168
+  interp: pow2Out
+  sizeInterp: pow2Out
+}

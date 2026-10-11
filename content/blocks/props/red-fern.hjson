@@ -1,0 +1,21 @@
+type: TreeBlock
+name: Red Fern
+buildTime: 4
+
+clipSize: 110
+drawCracks: false
+createRubble: false
+update: false
+drawTeamOverlay: false
+allowDerelictRepair: false
+alwaysReplace: true
+breakable: true
+destructible: false
+solid: false
+instantDeconstruct: false
+breakSound: plantBreak
+destroySound: plantBreak
+buildVisibility: editorOnly
+requirements: [
+  coal/2
+]

@@ -1,0 +1,21 @@
+type: AttributeCrafter
+category: crafting
+name: Panel Crafter
+description: "Produces neon with sunlight. Efficiency can be lowered by bad weather."
+size: 3
+health: 640
+
+hasItems: false
+liquidCapacity: 40
+outputLiquid: neon/0.0166666666
+
+baseEfficiency: 1
+attribute: light
+
+ambientSound: loopMachine
+craftEffect: none
+
+requirements: [
+  silver/90
+  cobalt/30
+]

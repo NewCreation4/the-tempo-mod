@@ -1,0 +1,7 @@
+name: Acid
+description: Used in liquid ammunition and chemical synthesis.
+heatCapacity: 0
+color: C0C995
+effect: corroding
+capPuddles: false
+coolant: false

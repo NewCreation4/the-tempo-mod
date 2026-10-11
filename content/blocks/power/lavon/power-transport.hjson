@@ -1,0 +1,17 @@
+type: PowerNode
+category: power
+name: Power Node
+description: Transports power to structures.
+size: 1
+
+health: 40
+armor: 0
+
+maxNodes: 8
+laserRange: 8
+
+research: kinetic-extractor
+researchCostMultiplier: 0.5
+requirements: [
+  beryllium/12
+]

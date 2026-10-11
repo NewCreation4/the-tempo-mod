@@ -1,0 +1,7 @@
+name: Enhanced Acid
+description: Used in liquid ammunition and advanced chemical synthesis.
+heatCapacity: 0
+temperature: 0.5000001
+color: 72C49E
+effect: corroding
+capPuddles: false

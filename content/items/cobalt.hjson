@@ -1,0 +1,12 @@
+name: Cobalt
+color: 3A5D8F
+description: "Used in complex electronics and alloys."
+
+cost: 0.75
+healthScaling: 0.1
+
+hardness: 3
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0.5

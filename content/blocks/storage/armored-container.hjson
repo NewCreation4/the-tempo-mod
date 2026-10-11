@@ -1,0 +1,16 @@
+type: StorageBlock
+category: effect
+name: Armored Container
+description: Stores items and supplies nearby units with ammo.
+size: 2
+health: 300
+armor: 8
+
+itemCapacity: 250
+
+squareSprite: false
+researchCostMultiplier: 0.5
+research: exponentiation
+requirements: [
+  titanium/130
+]

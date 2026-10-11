@@ -1,0 +1,7 @@
+name: Brine
+description: Used as coolant and in resource production.
+color: 99D6D2
+
+heatCapacity: 0.425
+boilPoint: 0.505
+effect: wet

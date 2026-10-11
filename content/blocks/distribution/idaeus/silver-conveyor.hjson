@@ -1,0 +1,12 @@
+type: Conveyor
+name: Silver Conveyor
+description: Transports items, like all conveyors.
+details: Moves items slightly faster than serpulo's basic conveyor.
+
+health: 45
+speed: 0.046
+displayedSpeed: 6.5
+
+requirements: [
+  silver/1
+]

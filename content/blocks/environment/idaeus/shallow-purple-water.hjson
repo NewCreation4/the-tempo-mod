@@ -1,0 +1,12 @@
+type: Floor
+name: Purple Water
+liquidDrop: purple-water
+isLiquid: true
+
+speedMultiplier: 0.5
+variants: 0
+status: wet
+statusDuration: 90
+cacheLayer: water
+albedo: 0.9
+supportsOverlay: true

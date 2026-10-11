@@ -1,0 +1,13 @@
+type: Wall
+category: defense
+name: Chromium Wall
+description: Protects structures from enemy projectiles. Faster to build than a reinforced titanium wall.
+size: 1
+
+health: 600
+armor: 5
+
+research: reinforced-titanium-wall
+requirements: [
+ chromium/6
+]

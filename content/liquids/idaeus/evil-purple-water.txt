@@ -1,0 +1,25 @@
+type: CellLiquid
+name: Purple Water
+description: Used in the process to make biomechanical units and to obtain sulphur via filtering.
+details: Aesthetically pleasing water filled with chemotrophs. Slowly contaminates and deals miniscule amounts of damage to anything with clean water.
+heatCapacity: 0.4
+temperature: 0.5
+flammability: 0
+explosiveness: 0
+viscosity: 0.6
+coolant: false
+effect: wet
+
+color: A07DE7
+colorFrom: A07DE7
+colorTo: A07DE7
+
+spreadTarget: water
+capPuddles: false
+blockReactive: false
+moveThroughBlocks: true
+spreadDamage: 0.03
+canStayOn: [water, oil, arkycite]
+maxSpread: 0.25
+spreadConversion: 0.5
+cells: 0

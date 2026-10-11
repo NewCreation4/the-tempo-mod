@@ -1,0 +1,21 @@
+type: Battery
+category: power
+name: Medium Battery
+description: Stores power and outputs it when needed.
+size: 2
+
+health: 760
+armor: 5
+
+consumes: {
+ powerBuffered: 22500
+}
+
+research: armored-battery
+researchCostMultiplier: 0.25
+requirements: [
+  beryllium/30
+  magnesium/30
+  chromium/40
+  cobalt/40
+]

@@ -1,0 +1,5 @@
+type: TallBlock
+name: Brookite
+clipSize: 128
+variants: 1
+itemDrop: brookite

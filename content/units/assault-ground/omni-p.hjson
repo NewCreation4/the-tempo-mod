@@ -1,0 +1,61 @@
+type: tank
+name: Omnipresence
+description: Fires basic tank shells. Lightly armored, uses titanium as ammo.
+hitSize: 12
+treadPullOffset: 10
+treadRects: [
+  {
+    x: -18 // 14 - 32
+    y: -30 // 2 - 32
+    width: 13
+    height: 60
+  }
+]
+
+health: 200
+armor: 5
+speed: 0.8
+rotateSpeed: 3
+itemCapacity: 0
+ammoCapacity: 120
+ammoType: {
+ type: ItemAmmoType
+ item: titanium
+ ammoPerItem: 10
+}
+
+targetAir: false
+omniMovement: false
+faceTarget: false
+
+weapons: [
+  {
+    x: 0
+    y: 2.5
+    name: light-cannon
+    reload: 60
+    mirror: false
+    rotate: true
+    shootSound: shoot
+    ejectEffect: casing2
+    rotateSpeed: 2.5
+    predictTarget: true
+
+    bullet: {
+      type: BasicBulletType
+      sprite: missile-large
+      width: 5
+      height: 8
+      damage: 20
+      speed: 7.5
+      lifetime: 19
+
+      trailWidth: 1.55
+      trailLength: 5
+      trailColor: f9c27aff
+      collidesAir: false
+    }
+  }
+]
+
+research: unit-fabricator

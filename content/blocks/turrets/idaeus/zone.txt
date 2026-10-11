@@ -1,0 +1,81 @@
+type: ItemTurret
+category: turret
+name: Zone
+description: Fires harmless black orbs that after some seconds, turn red and are fired at enemy targets.
+size: 3
+
+reload: 300
+inaccuracy: 90
+range: 360
+health: 2005
+maxAmmo: 30
+ammoPerShot: 3
+
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.15
+}
+coolantMultiplier: 0.5
+
+shoot: {
+  shots: 12
+  shotDelay: 2
+}
+
+ammoTypes: {
+  silver: {
+    type: BasicBulletType
+    width: 12
+    height: 12
+    frontColor: 2B2B2B
+    backColor: 2B2B2B
+    speed: 8
+    lifetime: 10
+    damage: 11
+    buildingDamageMultiplier: 0.5
+    ammoMultiplier: 1
+    trailWidth: 1.3
+    trailLength: 5
+    pierce: true
+    pierceBuilding: true
+    removeAfterPierce: false
+    trailColor: 2B2B2B
+    fragOnHit: false
+    fragBullets: 1
+    fragRandomSpread: 0
+    fragBullet: {
+      type: BasicBulletType
+      despawnSound: quieterFuse
+      hitSoundVolume: 0.7
+      width: 12
+      height: 12
+      speed: 6
+      lifetime: 30
+      damage: 22
+      pierce: true
+      pierceBuilding: true
+      removeAfterPierce: false
+      buildingDamageMultiplier: 0.5
+      fragOnHit: false
+      homingPower: 1
+      fragBullets: 1
+      fragRandomSpread: 0
+      fragVelocityMin: 1
+      fragBullet: {
+        type: ShrapnelBulletType
+        length: 80
+        toColor: ff0000
+        damage: 33
+      }
+    }
+  }
+}
+
+requirements: [
+  silver/75
+  titanium/100
+  cobalt/50
+  pyratite/75
+]

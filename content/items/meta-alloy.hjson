@@ -1,0 +1,14 @@
+name: Meta Alloy
+color: BBC4D1
+description: "Used in more durable structures and units."
+
+cost: 0.75
+healthScaling: 1
+
+hardness: 5
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+
+details: "Called the meta alloy, because it is the meta."

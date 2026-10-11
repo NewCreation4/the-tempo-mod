@@ -1,0 +1,67 @@
+name: A-17
+description: Unit capable of dropping incendiary sulphur bombs on targets underneath. Lightly armored, uses sulphur as ammo.
+flying: true
+
+health: 140
+armor: 2
+hitSize: 7
+speed: 2.8
+rotateSpeed: 7.5
+accel: 0.08
+drag: 0.016
+targetFlags: ["factory"]
+targetGround: true
+targetAir: false
+faceTarget: false
+circleTarget: true
+autoDropBombs: true
+immunities: [freezing, blasted, shocked]
+
+itemCapacity: 0
+ammoCapacity: 120
+ammoType: {
+ type: ItemAmmoType
+ item: sulphur
+ ammoPerItem: 10
+}
+
+weapons: [
+  {
+    minShootVelocity: 0.75
+    x: 3
+    shootY: 0
+    reload: 16
+    shootCone: 180
+    ejectEffect: none
+    inaccuracy: 15
+    ignoreRotation: true
+    shootSound: none
+    bullet: {
+      type: BombBulletType
+      width: 10
+      height: 14
+      frontColor: FFEC76
+      backColor: CAB933
+      hitEffect: flakExplosion
+      shootEffect: none
+      smokeEffect: none
+      status: burning
+      statusDuration: 300
+      splashDamage: 8
+      splashDamageRadius: 24
+      incendAmount: 1
+      incendChance: 1
+    }
+  }
+]
+alwaysUnlocked: false
+research: {
+  parent: unit-fabricator
+  objectives: [
+    magnesium,
+    {
+      type: SectorComplete
+      preset: neo-outpost
+    }
+  ]
+}

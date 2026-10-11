@@ -1,0 +1,44 @@
+type: GenericCrafter
+category: crafting
+name: Gas Centrifuge
+description: "Enriches uranium. Requires fluorine and power."
+size: 3
+health: 925
+
+itemCapacity: 20
+liquidCapacity: 60
+consumes: {
+  power: 2.5
+  items: [
+    uranium/2
+  ]
+  liquid: fluorine/0.0666666666
+}
+craftTime: 120
+outputItem: fissile-matter/1
+
+ambientSound: loopMachineSpin
+craftEffect: none
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawArcSmelt
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+
+research: fluorite-electrolyzer
+requirements: [
+  beryllium/90
+  silicon/75
+  chromium/105
+  cobalt/75
+]

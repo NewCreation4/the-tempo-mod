@@ -1,0 +1,60 @@
+name: Monogon
+description: Equipped with a machine gun and capable of building, mining and commanding units. Responsible for protecting the exponentiation core.
+
+flying: true
+health: 100
+armor: 1
+hitSize: 5
+speed: 4
+rotateSpeed: 5
+accel: 0.5
+
+itemCapacity: 30
+buildSpeed: 1
+mineTier: 3
+mineWalls: true
+mineSpeed: 6.5
+
+coreUnitDock: true
+immunities: [freezing]
+ammoCapacity: 400
+ammoType: {
+ type: ItemAmmoType
+ item: titanium
+ ammoPerItem: 400
+}
+
+weapons: [
+ {
+  type: Weapon
+  top: false
+  x: 0
+  y: 0
+  mirror: false
+  ejectEffect: casing1
+
+  rotate: false
+  shootCone: 10
+  inaccuracy: 5
+  reload: 12
+  targetInterval: 1
+  targetSwitchInterval: 1
+  cooldownTime: 150
+  shootSound: shoot
+  
+  bullet: {
+     type: BasicBulletType
+     width: 4
+     height: 6
+     damage: 9
+     speed: 7.5
+     lifetime: 19
+     trailWidth: 1
+     trailLength: 5
+     trailColor: f9c27aff
+     buildingDamageMultiplier: 0.01
+   }
+}]
+
+research: exponentiation
+alwaysUnlocked: true

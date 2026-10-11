@@ -1,0 +1,12 @@
+name: "ttm"
+displayName: "The Tempo Mod"
+description: '''
+  This one! (not a finished mod)
+'''
+author: '''
+  gg
+'''
+
+minGameVersion: 149
+hideBrowser: true
+version: 0

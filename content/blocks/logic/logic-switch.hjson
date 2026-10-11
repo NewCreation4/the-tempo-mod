@@ -1,0 +1,12 @@
+type: SwitchBlock
+category: logic
+name: Logic Switch
+description: A switch that can be turned on and off and is usually used in conjunction with other types of logic blocks.
+
+health: 50
+requirements: [
+  beryllium/20
+  sulphur/15
+]
+
+research: femto-processor

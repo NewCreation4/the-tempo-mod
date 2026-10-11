@@ -1,6 +1,0 @@
-name: Neon
-description: "Used in shield projectors and in some factories."
-color: FF4141
-coolant: false
-gas: true
-hidden: true

@@ -1,6 +1,0 @@
-type: Floor
-name: Red Grass
-
-attributes: {
-  water: 0.1
-}

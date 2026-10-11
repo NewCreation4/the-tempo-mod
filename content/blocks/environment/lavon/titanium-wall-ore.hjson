@@ -1,5 +1,0 @@
-type: OreBlock
-name: Titanium
-variants: 3
-itemDrop: titanium
-wallOre: true

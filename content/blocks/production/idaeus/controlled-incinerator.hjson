@@ -1,8 +1,0 @@
-type: Incinerator
-name: Incinerator
-category: crafting
-health: 50
-hasPower: false
-requirements: [
-  silver/20
-]

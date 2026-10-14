@@ -8,13 +8,13 @@ health: 640
 itemCapacity: 20
 liquidCapacity: 120
 consumes: {
-  power: 1.5
-  liquid: brine/0.5
+	power: 1.5
+	liquid: brine/0.5
 }
 craftTime: 120
 outputItems: [
-  magnesium/1
-  sulphur/2
+	magnesium/1
+	sulphur/2
 ]
 outputLiquid: water/0.4
 ignoreLiquidFullness: true
@@ -22,24 +22,28 @@ ignoreLiquidFullness: true
 ambientSound: loopMachine
 craftEffect: none
 drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: brine
-    }
-    {
-      type: DrawDefault
-    }
-  ]
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom
+		}
+		{
+			type: DrawLiquidTile
+			drawLiquid: brine
+		}
+		{
+			type: DrawBubbles
+			color: "99d3df"
+		}
+		{
+			type: DrawDefault
+		}
+	]
 }
 
 researchCostMultiplier: 0.05
 research: laser-bore
 requirements: [
-  beryllium/135
+	beryllium/135
 ]

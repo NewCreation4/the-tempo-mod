@@ -8,11 +8,11 @@ health: 890
 itemCapacity: 20
 liquidCapacity: 120
 consumes: {
-  power: 1
-  liquid: hydrogen/0.05
-  items: [
-    fluorite/4
-  ]
+	power: 1
+	liquid: hydrogen/0.05
+	items: [
+		fluorite/4
+	]
 }
 craftTime: 75
 outputLiquid: fluorine/0.2
@@ -21,34 +21,41 @@ ignoreLiquidFullness: false
 ambientSound: loopElectricHum
 craftEffect: none
 drawer: {
-  type: DrawMulti
-  drawers: [
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom
+		}
+		{
+			type: DrawLiquidTile
+			drawLiquid: fluorine
+		}
     {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: fluorine
-    }
-    {
-      type: DrawDefault
-    }
-  ]
+			type: DrawGlowRegion
+			suffix: -glow
+			glowScale: 5
+			color: AAFFFF
+			alpha: 0.9
+		}
+		{
+			type: DrawDefault
+		}
+	]
 }
 
 researchCostMultiplier: 0.25
 research: {
-  parent: water-electrolyzer
-  objectives: [
-    {
-      type: SectorComplete
-      preset: neo-outpost
-    }
-  ]
+	parent: water-electrolyzer
+	objectives: [
+		{
+			type: SectorComplete
+			preset: neo-outpost
+		}
+	]
 }
 requirements: [
-  beryllium/135
-  silicon/90
-  titanium/100
+	beryllium/135
+	silicon/90
+	titanium/100
 ]

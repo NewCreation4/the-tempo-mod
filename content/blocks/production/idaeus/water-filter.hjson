@@ -8,7 +8,7 @@ health: 160
 itemCapacity: 10
 liquidCapacity: 60
 consumes: {
-  liquid: purple-water/0.6
+	liquid: purple-water/0.6
 }
 craftTime: 133.3333333333
 outputLiquid: water/0.5
@@ -18,23 +18,32 @@ ignoreLiquidFullness: true
 ambientSound: none
 craftEffect: none
 drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: purple-water
-    }
-    {
-      type: DrawDefault
-    }
-  ]
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom
+		}
+		{
+			type: DrawLiquidTile
+			drawLiquid: purple-water
+		}
+		{
+			type: DrawBubbles
+			color: "A07DEF"
+			sides: 10
+			recurrence: 2
+			spread: 5
+			radius: 1.5
+			amount: 10
+		}
+		{
+			type: DrawDefault
+		}
+	]
 }
 
 requirements: [
-  silver/30
-  coal/15
+	silver/30
+	coal/15
 ]

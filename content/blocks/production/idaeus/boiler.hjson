@@ -6,49 +6,49 @@ size: 3
 health: 400
 
 liquidCapacity: 300
-heatRequirement: 5
-maxEfficiency: 3
+heatRequirement: 15
+maxEfficiency: 1
 consumes: {
-  liquid: water/0.5
+	liquid: water/1.5
 }
 craftTime: 40
 
-outputLiquid: steam/0.5
+outputLiquid: steam/1.5
 ignoreLiquidFullness: false
 
 ambientSound: loopCombustion
 craftEffect: none
 drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: water
-    }
-    {
-      type: DrawBubbles
-      color: "7693e3"
-      sides: 10
-      recurrence: 2
-      spread: 5
-      radius: 1.5
-      amount: 20
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: steam
-    }
-    {
-      type: DrawDefault
-    }
-  ]
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom
+		}
+		{
+			type: DrawLiquidTile
+			drawLiquid: water
+		}
+		{
+			type: DrawBubbles
+			color: "7693e3"
+			sides: 10
+			recurrence: 2
+			spread: 5
+			radius: 1.5
+			amount: 20
+		}
+		{
+			type: DrawLiquidTile
+			drawLiquid: steam
+		}
+		{
+			type: DrawDefault
+		}
+	]
 }
 
 requirements: [
-  silver/145
-  graphite/55
+	silver/145
+	graphite/55
 ]

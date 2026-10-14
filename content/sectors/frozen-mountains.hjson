@@ -5,6 +5,6 @@ planet: lavon
 sector: 21
 research: exponentiation
 difficulty: 1
-alwaysUnlocked: false
+alwaysUnlocked: true
 addStartingItems: true
 overrideLaunchDefaults: true

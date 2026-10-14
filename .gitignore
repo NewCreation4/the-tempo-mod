@@ -1,1 +1,10 @@
 zipper.sh
+content/liquids/idaeus/*.txt
+content/liquids/*.txt
+content/items/*.txt
+content/blocks/effect/*.txt
+content/blocks/production/*.txt
+content/blocks/props/*.txt
+content/blocks/turrets/idaeus/*.txt
+content/blocks/power/*.txt
+content/units/*.txt

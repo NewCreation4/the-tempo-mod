@@ -12,7 +12,6 @@ range: 200
 targetAir: false
 liquidCapacity: 120
 
-buildCostMultiplier: 2
 consumes: {
 	liquid: steam/0.1
 }
@@ -50,7 +49,7 @@ ammoTypes: {
 		knockback: 10
 		impact: true
 		armorMultiplier: 1.1
-		ammoMultiplier: 2
+		ammoMultiplier: 1
 		status: slow
 		statusDuration: 480
 		fragBullets: 1
@@ -103,6 +102,7 @@ drawer: {
 	]
 }
 
+buildCostMultiplier: 4
 requirements: [
-	silver/270
+	silver/370
 ]

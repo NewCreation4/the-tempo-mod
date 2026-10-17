@@ -31,7 +31,7 @@ drawer: {
 			type: DrawLiquidTile
 			drawLiquid: fluorine
 		}
-    {
+		{
 			type: DrawGlowRegion
 			suffix: -glow
 			glowScale: 5

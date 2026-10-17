@@ -1,5 +1,7 @@
-require("blocks/myocytite-wall")
-require("blocks/combustion-chamber")
+require("blocks")
+//require("blocks/myocytite-wall")
+//require("blocks/combustion-chamber")
+//require("blocks/pipe-bridge")
 
 Events.run(ClientLoadEvent, () => {
 	let llb = Vars.content.block("ttm-large-laser-bore")

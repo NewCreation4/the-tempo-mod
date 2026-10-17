@@ -1,4 +1,4 @@
-zipper.sh
+Makefile
 content/liquids/idaeus/*.txt
 content/liquids/*.txt
 content/items/*.txt

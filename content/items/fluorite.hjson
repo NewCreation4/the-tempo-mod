@@ -1,6 +1,6 @@
 name: Fluorite
 color: BA914D
-description: "Used for production of other refined materials."
+description: "Used for the production of other refined materials by acting as a flux."
 
 cost: 1
 healthScaling: 0.05

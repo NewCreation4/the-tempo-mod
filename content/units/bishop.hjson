@@ -14,8 +14,8 @@ drag: 0.017
 itemCapacity: 30
 payloadCapacity: 312
 buildSpeed: 1
-mineTier: 5
-mineSpeed: 5
+mineTier: 4
+mineSpeed: 4
 targetAir: false
 targetGround: false
 

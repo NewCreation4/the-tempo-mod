@@ -1,6 +1,6 @@
 name: Cobalt
 color: 3A5D8F
-description: "Used in complex electronics and alloys."
+description: "Used in batteries, complex electronics, and alloys."
 
 cost: 0.75
 healthScaling: 0.1

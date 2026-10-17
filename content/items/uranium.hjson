@@ -1,6 +1,6 @@
 name: Uranium
 color: 465248
-description: "Used in explosive ammunition and units. Can be enriched to improve its explosive uses."
+description: "Used in basic explosive ammunition, power generation, and units. Can be enriched to improve its explosive uses."
 details: "Commonly found across Lavon in small clusters for some reason."
 
 cost: 1

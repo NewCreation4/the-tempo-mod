@@ -16,45 +16,60 @@ recoil: 3.5
 
 buildCostMultiplier: 2
 consumes: {
-  liquid: steam/0.5
+	liquid: steam/0.5
 }
 
 maxAmmo: 21
 ammoPerShot: 3
 ammoTypes: {
-  titanium: {
-    type: BasicBulletType
-    width: 10
-    height: 50
-    sprite: missile-large
-    speed: 10
-    lifetime: 30
-    damage: 150
-    shootEffect: shootTitan
-    smokeEffect: shootSmokeTitan
-    //despawnEffect: {
-    //  type: ParticleEffect
-    //  colorFrom: FFFFFFFF
-    //  colorTo: FFFFFF00
-    //  sizeFrom: 2
-    //  sizeTo: 10
-    //}
-    buildingDamageMultiplier: 0.5
-    armorMultiplier: 0.45
-    ammoMultiplier: 1
-    pierce: true
-    pierceBuilding: true
-    pierceCap: 3
-    pierceDamageFactor: 0.04
-    collidesAir: false
+	titanium: {
+		type: BasicBulletType
+		width: 10
+		height: 50
+		sprite: missile-large
+		speed: 10
+		lifetime: 30
+		damage: 150
+		shootEffect: shootTitan
+		smokeEffect: shootSmokeTitan
+		//despawnEffect: {
+			//type: ParticleEffect
+			//colorFrom: FFFFFFFF
+			//colorTo: FFFFFF00
+			//sizeFrom: 2
+			//sizeTo: 10
+		//}
+		buildingDamageMultiplier: 0.5
+		armorMultiplier: 0.5
+		ammoMultiplier: 1
+		pierce: true
+		pierceBuilding: true
+		pierceCap: 3
+		pierceDamageFactor: 0.04
+		collidesAir: false
 
-    trailWidth: 3.5
-    trailLength: 10
-    trailColor: f9c27aff
-  }
+		trailWidth: 3.5
+		trailLength: 10
+		trailColor: f9c27aff
+	}
+}
+
+drawer: {
+	type: DrawTurret
+	parts: [
+		{
+			type: RegionPart
+			suffix: -barrel
+			heatProgress: recoil
+			progress: recoil
+			mirror: false
+			moveY: -2.5
+			under: true
+		}
+	]
 }
 
 requirements: [
-  silver/200
-  titanium/300
+	silver/200
+	titanium/300
 ]

@@ -1,7 +1,7 @@
 type: GenericCrafter
 category: crafting
 name: Advanced Titanium Smelter
-description: "Produces even more titanium from brookite."
+description: "Produces even more titanium from brookite with the help from argon gas."
 size: 3
 health: 1285
 

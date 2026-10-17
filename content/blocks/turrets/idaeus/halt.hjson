@@ -14,95 +14,95 @@ liquidCapacity: 120
 
 buildCostMultiplier: 2
 consumes: {
-  liquid: steam/0.1
-}
-
-drawer: {
-  type: DrawTurret
-  parts: [
-    {
-      type: RegionPart
-      suffix: -barrel
-      heatProgress: recoil
-      progress: recoil
-      mirror: false
-      moveY: -2.5
-      under: true
-    }
-  ]
+	liquid: steam/0.1
 }
 
 maxAmmo: 15
 ammoPerShot: 1
 ammoTypes: {
-  silver: {
-    type: BasicBulletType
-    width: 12
-    height: 16
-    speed: 8
-    lifetime: 28
-    damage: 60
-    knockback: 5
-    impact: true
-    buildingDamageMultiplier: 0.8
-    ammoMultiplier: 2
-    armorMultiplier: 0.9
-    collidesAir: false
+	silver: {
+		type: BasicBulletType
+		width: 12
+		height: 16
+		speed: 8
+		lifetime: 28
+		damage: 60
+		knockback: 5
+		impact: true
+		buildingDamageMultiplier: 0.8
+		ammoMultiplier: 2
+		armorMultiplier: 0.9
+		collidesAir: false
 
-    trailWidth: 1.55
-    trailLength: 5
-    trailColor: f9c27aff
-  }
-  sulphur: {
-    type: BasicBulletType
-    width: 13
-    height: 17
-    frontColor: FFEC76
-    backColor: CAB933
-    speed: 8
-    lifetime: 28
-    damage: 20
-    knockback: 10
-    impact: true
-    buildingDamageMultiplier: 0.75
-    armorMultiplier: 1.1
-    ammoMultiplier: 2
-    status: slow
-    statusDuration: 480
-    fragBullets: 1
-    fragBullet: {
-      type: ExplosionBulletType
-      splashDamage: 5
-      splashDamageRadius: 24
-      status: burning
-      statusDuration: 600
-      shootEffect: explosion
-      killShooter: false
-    }
-    trailWidth: 1.55
-    trailLength: 5
-    trailColor: CAB933
-  }
-  titanium: {
-    type: BasicBulletType
-    width: 12
-    height: 16
-    speed: 8
-    lifetime: 28
-    damage: 90
-    buildingDamageMultiplier: 0.7
-    armorMultiplier: 0.8
-    ammoMultiplier: 2
-    pierce: true
-    pierceCap: 2
-    collidesAir: false
+		trailWidth: 1.55
+		trailLength: 5
+		trailColor: f9c27aff
+	}
+	sulphur: {
+		type: BasicBulletType
+		width: 13
+		height: 17
+		frontColor: FFEC76
+		backColor: CAB933
+		speed: 8
+		lifetime: 28
+		damage: 25
+		knockback: 10
+		impact: true
+		armorMultiplier: 1.1
+		ammoMultiplier: 2
+		status: slow
+		statusDuration: 480
+		fragBullets: 1
+		fragBullet: {
+			type: ExplosionBulletType
+			splashDamage: 5
+			splashDamageRadius: 20
+			status: burning
+			statusDuration: 480
+			shootEffect: explosion
+			despawnEffect: none
+			killShooter: false
+		}
+		trailWidth: 1.55
+		trailLength: 5
+		trailColor: CAB933
+	}
+	titanium: {
+		type: BasicBulletType
+		width: 12
+		height: 16
+		speed: 8
+		lifetime: 28
+		damage: 90
+		buildingDamageMultiplier: 0.7
+		armorMultiplier: 0.8
+		ammoMultiplier: 2
+		pierce: true
+		pierceCap: 2
+		collidesAir: false
 
-    trailWidth: 1.55
-    trailLength: 5
-    trailColor: f9c27aff
-  }
+		trailWidth: 1.55
+		trailLength: 5
+		trailColor: f9c27aff
+	}
+}
+
+drawer: {
+	type: DrawTurret
+	parts: [
+		{
+			type: RegionPart
+			suffix: -barrel
+			heatProgress: recoil
+			progress: recoil
+			mirror: false
+			moveY: -2.5
+			under: true
+		}
+	]
 }
 
 requirements: [
-  silver/270
+	silver/270
 ]

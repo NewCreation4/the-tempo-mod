@@ -31,13 +31,6 @@ ammoTypes: {
 		damage: 150
 		shootEffect: shootTitan
 		smokeEffect: shootSmokeTitan
-		//despawnEffect: {
-			//type: ParticleEffect
-			//colorFrom: FFFFFFFF
-			//colorTo: FFFFFF00
-			//sizeFrom: 2
-			//sizeTo: 10
-		//}
 		buildingDamageMultiplier: 0.5
 		armorMultiplier: 0.5
 		ammoMultiplier: 1
@@ -71,5 +64,5 @@ drawer: {
 buildCostMultiplier: 4
 requirements: [
 	silver/200
-	titanium/300
+	titanium/180
 ]

@@ -3,22 +3,23 @@ category: crafting
 name: Titanium Smelter
 description: "Produces titanium from brookite."
 size: 3
-health: 885
+health: 955
 
 itemCapacity: 20
 liquidCapacity: 60
 consumes: {
-	power: 1
+	power: 2
 	liquids: [
 		hydrogen/0.05
-		ozone/0.0333333333
+		ozone/0.0166666666
 	]
 	items: [
-		brookite/4
+		brookite/2
+		magnesium/2
 	]
 }
-craftTime: 90
-outputItem: titanium/4
+craftTime: 60
+outputItem: titanium/2
 
 ambientSound: loopSmelter
 craftEffect: {
@@ -36,7 +37,7 @@ craftEffect: {
 		sizeTo: 2.5
 		colorFrom: "FFFFFFcc"
 		colorTo: "FFFFFF00"
-		lifetime: 115
+		lifetime: 100
 		randLength: true
 		length: 6
 		baseLength: 0
@@ -80,6 +81,7 @@ research: {
 	]
 }
 requirements: [
-	beryllium/150
-	silicon/130
+	beryllium/100
+	oxide/120
+	silicon/80
 ]

@@ -1,21 +1,23 @@
 type: GenericCrafter
 category: crafting
 name: Advanced Titanium Smelter
-description: "Produces even more titanium from brookite with the help from argon gas."
+description: "Produces even more titanium from brookite and magnesium. Uses argon gas, reduced power consumption when compared to its predecessor."
 size: 3
-health: 1285
+health: 1310
 
 itemCapacity: 20
 liquidCapacity: 60
 consumes: {
-  power: 1.25
-  liquids: [
-    hydrogen/0.05
-    argon/0.05
-  ]
-  items: [
-    brookite/5
-  ]
+	power: 0.25
+	liquids: [
+		hydrogen/0.05
+		ozone/0.0166666666
+		argon/0.0333333333
+	]
+	items: [
+		brookite/5
+		magnesium/5
+	]
 }
 craftTime: 60
 outputItem: titanium/5
@@ -23,30 +25,31 @@ outputItem: titanium/5
 ambientSound: loopElectricHum
 craftEffect: none
 drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawDefault
-    }
-  ]
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom
+		}
+		{
+			type: DrawDefault
+		}
+	]
 }
 
 researchCostMultiplier: 0.25
 research: {
-  parent: silicon-refinery
-  objectives: [
-    {
-      type: SectorComplete
-      preset: neo-outpost
-    }
-  ]
+	parent: silicon-refinery
+	objectives: [
+		{
+			type: SectorComplete
+			preset: neo-outpost
+		}
+	]
 }
 requirements: [
-  beryllium/185
-  silicon/135
-  chromium/90
+	beryllium/140
+	oxide/80
+	silicon/120
+	chromium/15
 ]

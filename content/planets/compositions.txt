@@ -7,12 +7,12 @@ Idaeus' atmosphere
 
 Idaeus' purple water sea
   92% water
-  4.9% sulphur
+  4.7% sulphur
   2.95% salt (sodium chloride)
-  0.1% organic matter
+  0.3% organic matter
   0.05% other salts
 
 Lavon's atmosphere
-  93.85% Nitrogen
-  1.1% Oxygen
+  94.05% Nitrogen
+  0.9% Oxygen
   5.15% Argon

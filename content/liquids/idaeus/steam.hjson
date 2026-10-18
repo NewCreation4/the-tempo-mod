@@ -1,5 +1,5 @@
 name: Steam
-description: "Used to power primitive structures."
+description: "Used to power primitive structures. Can be converted into electricity."
 color: FFFFFF
 flammability: 0
 explosiveness: 0.25

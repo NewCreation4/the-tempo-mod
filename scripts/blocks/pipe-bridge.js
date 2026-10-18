@@ -35,31 +35,4 @@ const pipeBridge = extend(LiquidBridge, "pipe-bridge", {
     },
 })
 
-/*pipeBridge.buildType = () => extend(ItemBridge.ItemBridgeBuild, {
-    updateTransport(other) {
-        if (this.warmup >= 0.25) {
-            this.moved |= this.moveLiquid(other, this.liquids.current()) > 0.05;
-        }
-    },
-
-    doDump() {
-        this.dumpLiquid(this.liquids.current(), 1);
-    },
-
-    draw() {
-        this.block.drawer.draw(this);
-        this.super$draw();
-    }
-});*/
-
-/*pipeBridge.buildType = () => extend(ItemBridge.ItemBridgeBuild, {
-	draw() {
-		this.block.drawer.draw(this)
-		this.super$draw()
-		print("draw done")
-	}
-})*/
-
-//const pipeBridgeDrawer = new DrawMulti() 
-
 // all of this just to add a bottom region btw

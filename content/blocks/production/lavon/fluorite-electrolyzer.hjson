@@ -36,7 +36,18 @@ drawer: {
 			suffix: -glow
 			glowScale: 5
 			color: AAFFFF
-			alpha: 0.9
+			alpha: 0.7
+		}
+		{
+			type: DrawParticles
+			color: "E2EB71"
+			alpha: 0.5
+			particleSize: 2.7
+			particles: 7
+			particleRad: 9
+			particleLife: 160
+			reverse: true
+			particleSizeInterp: one
 		}
 		{
 			type: DrawDefault

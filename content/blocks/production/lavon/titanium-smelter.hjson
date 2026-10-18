@@ -8,41 +8,78 @@ health: 885
 itemCapacity: 20
 liquidCapacity: 60
 consumes: {
-  power: 1
-  liquid: hydrogen/0.05
-  items: [
-    brookite/4
-  ]
+	power: 1
+	liquids: [
+		hydrogen/0.05
+		ozone/0.0333333333
+	]
+	items: [
+		brookite/4
+	]
 }
 craftTime: 90
 outputItem: titanium/4
 
-ambientSound: loopElectricHum
-craftEffect: none
+ambientSound: loopSmelter
+craftEffect: {
+	type: RadialEffect
+	amount: 4
+	rotationSpacing: 90
+	rotationOffset: 45
+	lengthOffset: 7.6
+	effect: {
+		type: ParticleEffect
+		particles: 3
+		cone: 40
+		rotWithParent: true
+		sizeFrom: 0.5
+		sizeTo: 2.5
+		colorFrom: "FFFFFFcc"
+		colorTo: "FFFFFF00"
+		lifetime: 115
+		randLength: true
+		length: 6
+		baseLength: 0
+		colorInterp: pow2In
+		sizeInterp: pow2Out
+		interp: pow2Out
+		spin: 0.4
+		lightScl: 0
+		useRotation: true
+	}
+}
 drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawDefault
-    }
-  ]
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom
+		}
+		{
+			type: DrawDefault
+		}
+		{
+			type: DrawGlowRegion
+			color: "FF9C4C"
+			suffix: -vents
+		}
+		{
+			type: DrawFlame
+		}
+	]
 }
 
 researchCostMultiplier: 0.25
 research: {
-  parent: silicon-refinery
-  objectives: [
-    {
-      type: SectorComplete
-      preset: neo-outpost
-    }
-  ]
+	parent: silicon-refinery
+	objectives: [
+		{
+			type: SectorComplete
+			preset: neo-outpost
+		}
+	]
 }
 requirements: [
-  beryllium/150
-  silicon/130
+	beryllium/150
+	silicon/130
 ]

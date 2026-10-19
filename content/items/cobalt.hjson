@@ -5,7 +5,7 @@ description: "Used in batteries, complex electronics, and alloys."
 cost: 0.75
 healthScaling: 0.1
 
-hardness: 3
+hardness: 4
 explosiveness: 0
 flammability: 0
 radioactivity: 0

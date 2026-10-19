@@ -4,10 +4,10 @@ description: "Used in basic explosive ammunition, power generation, and units. C
 details: "Commonly found across Lavon in small clusters for some reason."
 
 cost: 1
-healthScaling: 1
+healthScaling: 0.5
 
 hardness: 4
-explosiveness: 0.4
+explosiveness: 0.3
 flammability: 0
 radioactivity: 1.5
 charge: 0

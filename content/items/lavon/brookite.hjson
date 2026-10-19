@@ -1,6 +1,7 @@
 name: Brookite
 color: FC8E6C
 description: "Raw titanium. Used in the production of titanium through refining."
+details: "Normally in Lavon titanium is found mostly pure, however, in some regions in Lavon the titanium is completely oxidized."
 
 cost: 1.5
 

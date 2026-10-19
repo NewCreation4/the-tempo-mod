@@ -1,0 +1,50 @@
+type: GenericCrafter
+category: crafting
+name: Oxidation Chamber
+description: "Oxidizes small batches of beryllium to produce oxide."
+size: 3
+health: 780
+
+itemCapacity: 20
+consumes: {
+	power: 1
+	liquid: ozone/0.0333333333
+	items: [
+		beryllium/2
+	]
+}
+craftTime: 120
+outputItem: oxide/2
+
+ambientSound: loopExtract
+craftEffect: none
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom
+		}
+		{
+			type: DrawLiquidTile
+			drawLiquid: ozone
+		}
+		{
+			type: DrawDefault
+		}
+		{
+			type: DrawGlowRegion
+			suffix: -glow
+			glowScale: 15
+			color: fc81dd99
+			alpha: 0.9
+		}
+	]
+}
+
+research: silicon-refinery
+researchCostMultiplier: 0.1
+requirements: [
+	beryllium/100
+	silicon/150
+]

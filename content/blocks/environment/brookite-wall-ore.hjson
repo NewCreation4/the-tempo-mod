@@ -1,0 +1,5 @@
+type: OreBlock
+name: Brookite
+variants: 3
+itemDrop: brookite
+wallOre: true

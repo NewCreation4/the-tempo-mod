@@ -42,7 +42,6 @@ const combustionChamber = extend(ConsumeGenerator, "combustion-chamber", {
 					this.alpha = f
 				}
 				this.super$draw(build)
-				print(this.lastItem)
 				if (item != null)
 					this.lastItem = item;
 			}

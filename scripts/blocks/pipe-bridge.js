@@ -1,13 +1,4 @@
 const pipeBridge = extend(LiquidBridge, "pipe-bridge", {
-	/*noAcceptDisabled: true,
-	fadeIn: false,
-	moveArrows: false,
-	arrowSpacing: 6,
-	squareSprite: false,
-	floating: true,
-	hasPower: false,
-	liquidCapacity: 120,
-	range: 4,*/
 	drawer: new DrawMulti(
 		new DrawRegion("-bottom"),
 		(() => {
@@ -20,7 +11,6 @@ const pipeBridge = extend(LiquidBridge, "pipe-bridge", {
 	load() {
 		this.super$load()
 		this.drawer.load(this)
-		//print("load done")
 	},
 	drawBase(tile) {
 		if (tile.build != null) {

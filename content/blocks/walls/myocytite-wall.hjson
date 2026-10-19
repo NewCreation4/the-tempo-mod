@@ -1,14 +1,15 @@
+// see scripts/blocks/myocytite-wall.js
+
 category: defense
 name: Myocytite Wall
 description: A wall that gets more maximum health the more it gets hit.
 size: 1
+health: 600 // can increase up to 7200
 
 solid: true
 update: true
 
-//halth: 600 // can increase up to 7200
-
 research: reinforced-titanium-wall
 requirements: [
-  coal/6
+	coal/6
 ]

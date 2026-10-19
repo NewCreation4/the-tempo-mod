@@ -1,3 +1,5 @@
+// See scripts/blocks/combustion-chamber.js
+
 category: power
 name: Combustion Chamber
 description: "Generates power by burning flammable materials with oxidizers."

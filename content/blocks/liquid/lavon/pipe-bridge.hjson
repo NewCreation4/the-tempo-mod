@@ -1,9 +1,21 @@
+// See scripts/blocks/pipe-bridge.js
+
 category: liquid
 name: Pipe Bridge
 description: Transports liquids over small obstacles.
 
 solid: true
 update: true
+
+noAcceptDisabled: true
+fadeIn: false
+moveArrows: false
+arrowSpacing: 6
+squareSprite: false
+floating: true
+hasPower: false
+liquidCapacity: 120
+range: 4
 
 research: liquid-pipe-router
 requirements: [

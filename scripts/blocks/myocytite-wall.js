@@ -2,7 +2,6 @@ const adaptationMultiplier = 1
 
 const myocytiteWall = extend(Wall, "myocytite-wall", {
 	maxAdaptation: 6600,
-	health: 600,
 	setBars() {
 		this.super$setBars()
 		this.addBar("adaptation", (entity) => {
@@ -31,12 +30,10 @@ myocytiteWall.buildType = () => extend(Wall.WallBuild, myocytiteWall, {
 	read(read, version) {
 		this.super$read(read, version)
 		this.adaptation = read.i()
-		if (version >= 2) {
+		if (version >= 2)
 			this.maxHealth = read.i()
-		} else {
+		else
 			this.maxHealth = myocytiteWall.health
-		}
-		//print(this.maxHealth)
 	},
 	collision(bullet) {
 		let result = this.super$collision(bullet)

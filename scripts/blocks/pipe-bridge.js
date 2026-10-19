@@ -1,5 +1,5 @@
 const pipeBridge = extend(LiquidBridge, "pipe-bridge", {
-	noAcceptDisabled: true,
+	/*noAcceptDisabled: true,
 	fadeIn: false,
 	moveArrows: false,
 	arrowSpacing: 6,
@@ -7,7 +7,7 @@ const pipeBridge = extend(LiquidBridge, "pipe-bridge", {
 	floating: true,
 	hasPower: false,
 	liquidCapacity: 120,
-	range: 4,
+	range: 4,*/
 	drawer: new DrawMulti(
 		new DrawRegion("-bottom"),
 		(() => {

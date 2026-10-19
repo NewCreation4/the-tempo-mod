@@ -6,5 +6,6 @@ content/blocks/effect/*.txt
 content/blocks/production/*.txt
 content/blocks/props/*.txt
 content/blocks/turrets/idaeus/*.txt
+content/blocks/turrets/idaeus/steamtest.hjson
 content/blocks/power/*.txt
 content/units/*.txt

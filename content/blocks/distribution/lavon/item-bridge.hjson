@@ -1,0 +1,19 @@
+type: ItemBridge
+category: distribution
+name: Item Bridge
+description: "Transports items over small obstacles."
+
+fadeIn: false
+moveArrows: false
+range: 4
+transportTime: 4.6153846154
+arrowSpacing: 6
+crushFragile: true
+underBullets: true
+unloadable: true
+
+research: basic-duct-junction
+requirements: [
+	beryllium/4
+	titanium/8
+]

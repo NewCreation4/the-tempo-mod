@@ -1,7 +1,7 @@
 type: GenericCrafter
 category: crafting
 name: Titanium Smelter
-description: "Produces titanium from brookite."
+description: "Reduces brookite into titanium using magnesium. Requires hydrogen, ozone and power."
 size: 3
 health: 955
 

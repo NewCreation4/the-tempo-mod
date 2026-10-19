@@ -1,7 +1,8 @@
 type: GenericCrafter
 category: crafting
 name: Advanced Titanium Smelter
-description: "Produces even more titanium from brookite and magnesium. Uses argon gas, reduced power consumption when compared to its predecessor."
+description: "Reduces more brookite into titanium using magnesium, with the help of argon gas. Requires hydrogen, ozone, and power."
+details: "Uses way less power and is more capable when compared to its predecessor. It is more efficient overall."
 size: 3
 health: 1310
 
@@ -47,6 +48,7 @@ research: {
 		}
 	]
 }
+
 requirements: [
 	beryllium/140
 	oxide/80

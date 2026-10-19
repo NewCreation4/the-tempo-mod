@@ -1,22 +1,16 @@
+category: power
 name: Combustion Chamber
 description: "Generates power by burning flammable materials with oxidizers."
-category: power
+health: 380
+size: 2
 
 solid: true
 update: true
-
 hasItems: true
 hasPower: true
 hasLiquids: true
 
-health: 380
-size: 2
-requirements: [
-	beryllium/40
-	titanium/50
-]
-
-powerProduction: 2.2
+powerProduction: 2
 itemDuration: 60
 itemCapacity: 10
 consumes: {
@@ -25,27 +19,11 @@ consumes: {
 	}
 }
 
-drawer: {
-	type: DrawMulti
-	drawers: [
-		{
-			type: DrawRegion
-			suffix: -bottom
-		},
-		{
-			type: DrawDefault
-		},
-		{
-			type: DrawGlowRegion
-			suffix: -heat
-			glowScale: 5
-			color: FFFFFF
-			alpha: 0.4
-		}
-	]
-}
 generateEffect: generatespark
-
 ambientSound: loopCombustion
-envEnabled: 3
+
 research: kinetic-extractor
+requirements: [
+	beryllium/45
+	oxide/50
+]

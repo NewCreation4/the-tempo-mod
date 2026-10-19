@@ -1,17 +1,18 @@
 type: DuctBridge
 category: distribution
 name: Duct Overpass
-description: Transports items over many obstacles.
+description: Transports items over big obstacles.
 size: 1
+health: 60
 
-itemCapacity: 5
-speed: 12
-range: 6
-health: 150
+itemCapacity: 10
+speed: 4.6153846154
+range: 7
 squareSprite: false
+configurable: true
 
-research: basic-duct-junction
+research: item-bridge
 requirements: [
-  beryllium/12
-  titanium/12
+	beryllium/10
+	titanium/19
 ]

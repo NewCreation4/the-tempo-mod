@@ -28,7 +28,7 @@ ammoTypes: {
 		sprite: missile-large
 		speed: 10
 		lifetime: 30
-		damage: 150
+		damage: 135
 		shootEffect: shootTitan
 		smokeEffect: shootSmokeTitan
 		buildingDamageMultiplier: 0.5
@@ -63,6 +63,7 @@ drawer: {
 
 buildCostMultiplier: 4
 requirements: [
-	silver/200
-	titanium/180
+	silver/190
+	graphite/80
+	titanium/110
 ]

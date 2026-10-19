@@ -1,14 +1,13 @@
 type: LiquidRouter
 category: liquid
-name: Armored Liquid Tank
+name: Liquid Vat
 description: Stores liquids and outputs them to all sides.
 size: 2
 
 health: 420
-armor: 5
-liquidCapacity: 900
+liquidCapacity: 850
 requirements: [
-  beryllium/8
-  titanium/30
+	beryllium/8
+	titanium/30
 ]
 research: liquid-pipe-router

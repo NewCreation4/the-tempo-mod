@@ -2,7 +2,7 @@ type: DirectionLiquidBridge
 name: Pipe Overpass
 description: Transports liquids over large obstacles.
 squareSprite: false
-health: 300
+health: 60
 liquidCapacity: 280
 range: 7
 
@@ -10,6 +10,6 @@ category: liquid
 research: liquid-pipe-router
 underBullets: true
 requirements: [
-  beryllium/30
-  titanium/45
+	beryllium/10
+	titanium/19
 ]

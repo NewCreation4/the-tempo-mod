@@ -5,7 +5,7 @@ description: Splits items into 3 other lines.
 size: 1
 
 itemCapacity: 1
-speed: 1
+speed: 4
 health: 100
 
 research: basic-duct-junction

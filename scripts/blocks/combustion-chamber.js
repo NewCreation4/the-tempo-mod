@@ -21,7 +21,23 @@ const ConsumeOxidizer = extend(ConsumeLiquidFilter, liquid => OxidizerEfficienci
 	}
 })
 
-const combustionChamber = extend(ConsumeGenerator, "combustion-chamber", {})
+const combustionChamber = extend(ConsumeGenerator, "combustion-chamber", {
+	drawer: new DrawMulti(
+		new DrawRegion("-bottom"),
+		new DrawLiquidTile(null),
+		new DrawDefault(),
+		extend(DrawGlowRegion, {
+			draw(build) {
+				const liq = build.liquids.current()
+				if (liq == null || build.liquids.currentAmount < 0.001) return;
+				this.color = liq.color
+				this.suffix = "-glow"
+				this.alpha = 0.9
+				this.super$draw(build)
+			}
+		})
+	)
+})
 combustionChamber.buildType = () => extend(ConsumeGenerator.ConsumeGeneratorBuild, combustionChamber, {
 	setStats() {
 		this.stats.timePeriod = this.itemDuration;
@@ -31,7 +47,11 @@ combustionChamber.buildType = () => extend(ConsumeGenerator.ConsumeGeneratorBuil
 	updateEfficiencyMultiplier() {
 		let item = combustionChamber.filterItem.getConsumed(this)
 		let liquid = combustionChamber.filterLiquid.getConsumed(this)
-		let eff = (item==null ? 0 : combustionChamber.filterItem.itemEfficiencyMultiplier(item)) * (liquid==null ? 0 : combustionChamber.filterLiquid.liquidEfficiencyMultiplier(liquid))
+		let eff = (
+			item==null ?
+				0 :
+				combustionChamber.filterItem.itemEfficiencyMultiplier(item)) * (liquid==null ? 0 : combustionChamber.filterLiquid.liquidEfficiencyMultiplier(liquid)
+			)
 		if (eff > 0) this.efficiencyMultiplier = eff;
 	}
 })

@@ -2,10 +2,6 @@ require("liquids")
 require("blocks")
 
 Events.run(ClientLoadEvent, () => {
-	//let llb = Vars.content.block("ttm-large-laser-bore")
-	//llb.consumeLiquid(Vars.content.liquid("ttm-fluorine"), 2 / 60).boost()
-	//llb.init()
-
 	let lavon = Vars.content.planet("ttm-lavon")
 	lavon.ruleSetter = r => {
 		r.waveTeam = Team.blue

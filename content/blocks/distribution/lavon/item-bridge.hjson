@@ -11,6 +11,7 @@ arrowSpacing: 6
 crushFragile: true
 underBullets: true
 unloadable: true
+hasPower: false
 
 research: basic-duct-junction
 requirements: [

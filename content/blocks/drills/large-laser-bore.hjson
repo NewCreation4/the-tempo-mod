@@ -1,4 +1,5 @@
-type: BeamDrill
+// see scripts/blocks/large-laser-bore.js
+
 category: production
 name: Large Laser Bore
 description: Extracts harder ores in walls. Can be boosted with fluorine gas.
@@ -7,23 +8,17 @@ solid: true
 update: true
 
 health: 1255
-drillTime: 75
+drillTime: 80
 tier: 4
 range: 5
 itemCapacity: 20
 
-optionalBoostIntensity: 2.55
-consumes: {
-  liquid: {
-    liquid: hydrogen
-    amount: 0.0166666666
-  }
-  power: 0.9
-}
+optionalBoostIntensity: 2.5
 
 research: laser-bore
 requirements: [
-  beryllium/120
-  silicon/110
-  titanium/120
+	beryllium/110
+	silicon/100
+	titanium/100
+	oxide/40
 ]

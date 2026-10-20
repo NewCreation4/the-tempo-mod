@@ -8,14 +8,14 @@ health: 760
 armor: 5
 
 consumes: {
- powerBuffered: 22500
+	powerBuffered: 45000
 }
 
 research: armored-battery
 researchCostMultiplier: 0.25
 requirements: [
-  beryllium/30
-  magnesium/30
-  chromium/40
-  cobalt/40
+	beryllium/30
+	magnesium/30
+	chromium/40
+	cobalt/40
 ]

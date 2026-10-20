@@ -5,6 +5,7 @@ description: Distributes inputted liquids to three outputs equally.
 size: 1
 health: 50
 underBullets: true
+solid: false
 liquidCapacity: 120
 liquidPadding: 1.6
 

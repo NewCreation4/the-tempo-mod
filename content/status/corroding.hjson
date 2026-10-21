@@ -6,15 +6,19 @@ healthMultiplier: 0.9
 opposites: [wet]
 affinities: [burning]
 
-color: E7FF70
+color: "e7ff70"
 effectChance: 0.1
 effect: {
-  type: ParticleEffect
-  particles: 1
-  sizeFrom: 2
-  sizeTo: 0
-  colorFrom: E7FF70
-  colorTo: BFD168
-  interp: pow2Out
-  sizeInterp: pow2Out
+	type: ParticleEffect
+	particles: 1
+	lifetime: 80
+	length: 6
+	sizeFrom: 2
+	sizeTo: 0
+	lightScl: 0
+	colorFrom: E7FF70
+	colorTo: BFD168
+	interp: pow2Out
+	sizeInterp: pow2Out
+	colorInterp: pow2In
 }

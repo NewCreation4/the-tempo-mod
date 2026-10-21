@@ -10,8 +10,8 @@ liquidCapacity: 60
 consumes: {
 	power: 2
 	liquids: [
-		hydrogen/0.05
-		ozone/0.0166666666
+		hydrogen/0.1
+		ozone/0.0333333333
 	]
 	items: [
 		brookite/2

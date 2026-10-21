@@ -6,14 +6,14 @@ size: 3
 health: 800
 
 hasItems: false
-liquidCapacity: 80
+liquidCapacity: 120
 consumes: {
 	power: 1
-	liquid: water/0.4
+	liquid: water/0.5
 }
 outputLiquids: [
-	ozone/0.15
-	hydrogen/0.25
+	hydrogen/0.5
+	ozone/0.1666666666
 ]
 ignoreLiquidFullness: false
 liquidOutputDirections: [1, 3]
@@ -70,4 +70,5 @@ research: {
 
 requirements: [
 	beryllium/155
+	silicon/60
 ]

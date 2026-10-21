@@ -9,34 +9,36 @@ health: 600
 attribute: water
 displayEfficiencyScale: 0.1111111111
 displayEfficiency: false
-powerProduction: 0.3333333333
+//powerProduction: 0.3333333333
+powerProduction: 0.2777777777
 minEfficiency: 8.99999
 squareSprite: false
 
 liquidCapacity: 60
-outputLiquid: brine/0.0555555555
+//outputLiquid: brine/0.0555555555
+outputLiquid: brine/0.0666666666
+
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom
+		}
+		{
+			type: DrawLiquidTile
+			padding: 2
+			drawLiquid: brine
+		}
+		{
+			type: DrawDefault
+		}
+	]
+}
 
 alwaysUnlocked: true
 research: exponentiation
 researchCostMultiplier: 0.05
 requirements: [
-  beryllium/80
+	beryllium/75
 ]
-
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawLiquidTile
-      padding: 2
-      drawLiquid: brine
-    }
-    {
-      type: DrawDefault
-    }
-  ]
-}

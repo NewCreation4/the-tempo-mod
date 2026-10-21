@@ -4,8 +4,9 @@ speedMultiplier: 0.94
 reloadMultiplier: 0.94
 damageMultiplier: 0.94
 buildSpeedMultiplier: 0.94
+dragMultiplier: 1.06
 
-color: FFCBDD
+color: "ffcbdd"
 effectChance: 0.05
 effect: {
   type: ParticleEffect

@@ -102,7 +102,7 @@ drawer: {
 	]
 }
 
-buildCostMultiplier: 4
+buildCostMultiplier: 3
 requirements: [
 	silver/370
 ]

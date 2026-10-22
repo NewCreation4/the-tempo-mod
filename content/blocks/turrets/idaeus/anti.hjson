@@ -61,7 +61,7 @@ drawer: {
 	]
 }
 
-buildCostMultiplier: 4
+buildCostMultiplier: 3
 requirements: [
 	silver/190
 	graphite/80

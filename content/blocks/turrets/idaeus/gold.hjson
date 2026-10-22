@@ -12,40 +12,41 @@ maxAmmo: 20
 ammoPerShot: 1
 targetAir: false
 
-buildCostMultiplier: 2
 liquidCapacity: 120
 consumes: {
-  liquid: steam/0.1666666666
+	liquid: steam/0.1666666666
 }
 
 ammoTypes: {
-  sulphur: {
-    type: ArtilleryBulletType
-    width: 10
-    height: 12
-    frontColor: FFEC76
-    backColor: CAB933
-    trailWidth: 2.5
-    trailLength: 9
-    trailColor: CAB933
-    trailEffect: none
-    shrinkY: 0.7
-    lifeScaleRandMin: 0.85
-    lifeScaleRandMax: 1.15
-    speed: 4
-    lifetime: 40
-    splashDamage: 12
-    splashDamageRadius: 24
-    scaledSplashDamage: true
-    ammoMultiplier: 4
-    status: burning
-    statusDuration: 480
-    incendChance: 0.25
-    incendAmount: 1
-  }
+	sulphur: {
+		type: ArtilleryBulletType
+		width: 10
+		height: 12
+		frontColor: FFEC76
+		backColor: CAB933
+		trailWidth: 2.5
+		trailLength: 9
+		trailColor: CAB933
+		trailEffect: none
+		shrinkY: 0.7
+		lifeScaleRandMin: 0.85
+		lifeScaleRandMax: 1.15
+		speed: 4
+		lifetime: 40
+		splashDamage: 12
+		splashDamageRadius: 24
+		scaledSplashDamage: true
+		ammoMultiplier: 4
+		status: burning
+		statusDuration: 480
+		incendChance: 0.25
+		incendAmount: 1
+		despawnShake: 0.5
+	}
 }
 
+buildCostMultiplier: 3
 requirements: [
-  silver/150
-  titanium/150
+	silver/150
+	titanium/200
 ]

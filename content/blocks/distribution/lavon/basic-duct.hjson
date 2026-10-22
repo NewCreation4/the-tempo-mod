@@ -1,6 +1,6 @@
 type: Duct
 category: distribution
-name: Titanium Duct
+name: Duct
 description: Transports items around at moderate speeds.
 
 itemCapacity: 1
@@ -8,11 +8,10 @@ speed: 4
 health: 100
 
 junctionReplacement: basic-duct-junction
-bridgeReplacement: duct-overpass
+bridgeReplacement: item-bridge
 
 alwaysUnlocked: true
 research: exponentiation
 requirements: [
-  beryllium/1
-  titanium/1
+	beryllium/2
 ]

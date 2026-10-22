@@ -9,7 +9,7 @@ drillTime: 160
 tier: 3
 range: 4
 
-optionalBoostIntensity: 2.55
+optionalBoostIntensity: 2.5
 consumes: {
 	liquid: {
 		liquid: hydrogen
@@ -20,7 +20,7 @@ consumes: {
 	power: 0.2
 }
 
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.025
 research: kinetic-extractor
 requirements: [
 	beryllium/45

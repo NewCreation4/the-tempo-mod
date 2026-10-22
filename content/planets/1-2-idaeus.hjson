@@ -81,6 +81,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 allowLaunchToNumbered: true // false when for players, true to find good sector
 allowSectorInvasion: true
+enemyInfiniteItems: false
 prebuildBase: false
 
 //defaultCore: exponentiation

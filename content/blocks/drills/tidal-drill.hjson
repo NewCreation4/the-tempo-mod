@@ -2,7 +2,7 @@ type: Drill
 category: production
 name: Tidal Drill
 description: Drills ores from tiles underneath itself. Can be boosted with steam.
-details: Can be placed on the edges of deep water.
+details: Can be placed on the edge of bodies of deep water.
 size: 2
 
 tier: 2
@@ -13,18 +13,18 @@ warmupSpeed: 0.05
 hasLiquids: true
 floating: true
 
-liquidBoostIntensity: 1.65
+liquidBoostIntensity: 1.6
 consumes: {
-  liquid: {
-    liquid: steam
-    optional: true
-    booster: true
-    amount: 0.05
-  }
+	liquid: {
+		liquid: steam
+		optional: true
+		booster: true
+		amount: 0.05
+	}
 }
 
 
 //research: exponentiation
 requirements: [
-  silver/18
+	silver/18
 ]

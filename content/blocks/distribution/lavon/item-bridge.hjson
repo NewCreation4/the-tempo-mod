@@ -13,7 +13,7 @@ underBullets: true
 unloadable: true
 hasPower: false
 
-research: basic-duct-junction
+research: basic-duct-router
 requirements: [
 	beryllium/4
 	titanium/8

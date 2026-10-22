@@ -2,7 +2,7 @@ localizedName: Frozen Mountains
 captureWave: 10
 description: A sector with low enemy presence, our starting point. Research and utilize the native technology.
 planet: lavon
-sector: 21
+sector: 47
 research: exponentiation
 difficulty: 1
 alwaysUnlocked: true

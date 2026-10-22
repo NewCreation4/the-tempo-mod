@@ -52,14 +52,8 @@ generator: {
 	ferricChance: 0.05
 }
 
-startSector: 21
+startSector: 47
 sectorSize: 2
-alwaysUnlocked: true
-allowLaunchSchematics: true
-allowLaunchLoadout: true
-clearSectorOnLose: true
-allowSectorInvasion: true
-allowLaunchToNumbered: true // false when for players, true to find good sector
 tidalLock: true
 allowWaves: true
 prebuildBase: false
@@ -81,9 +75,19 @@ atmosphereRadIn: 0.02
 atmosphereRadOut: 0.06
 atmosphereColor: 000030
 
+alwaysUnlocked: true
+allowLaunchSchematics: true
+allowLaunchLoadout: true
+clearSectorOnLose: true
+allowSectorInvasion: true
+allowLaunchToNumbered: true // false when for players, true to find good sector
+enemyInfiniteItems: false
+
 iconColor: ffffff
 parent: 1-1-verod
 solarSystem: 1-0-kathom
 launchCandidates: []
+
+launchMusic: military-maneuvers-a
 
 defaultCore: exponentiation

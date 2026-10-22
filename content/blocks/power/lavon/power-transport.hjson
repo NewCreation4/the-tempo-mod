@@ -11,7 +11,7 @@ maxNodes: 8
 laserRange: 8
 
 research: kinetic-extractor
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.25
 requirements: [
-  beryllium/12
+	beryllium/12
 ]

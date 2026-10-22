@@ -5,8 +5,8 @@ description: Outputs items to the sides if the front path is blocked.
 
 speed: 1
 
-research: basic-duct
+research: basic-duct-junction
 requirements: [
-  beryllium/2
-  titanium/4
+	beryllium/2
+	titanium/4
 ]

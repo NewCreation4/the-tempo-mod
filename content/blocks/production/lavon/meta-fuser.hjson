@@ -6,7 +6,7 @@ description: "Fuses chromium, titanium, tungsten and cobalt into batches of meta
 size: 4
 
 liquidCapacity: 70
-itemCapacity: 15
+itemCapacity: 24
 consumes: {
 	power: 3.5
 	items: [

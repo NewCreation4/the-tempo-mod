@@ -42,7 +42,7 @@ drawer: {
 	]
 }
 
-research: silicon-refinery
+research: water-electrolyzer
 researchCostMultiplier: 0.1
 requirements: [
 	beryllium/100

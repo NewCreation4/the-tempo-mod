@@ -1,4 +1,4 @@
-// see scripts/blocks/myocytite-wall.js
+// See scripts/blocks/myocytite-wall.js
 
 category: defense
 name: Myocytite Wall
@@ -9,7 +9,7 @@ health: 600 // can increase up to 7200
 solid: true
 update: true
 
-research: reinforced-titanium-wall
+//research: reinforced-titanium-wall
 requirements: [
 	coal/6
 ]

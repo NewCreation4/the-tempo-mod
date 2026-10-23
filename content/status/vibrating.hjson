@@ -1,4 +1,4 @@
-name: Vibrated
+name: Vibrating
 healthMultiplier: 0.94
 speedMultiplier: 0.94
 reloadMultiplier: 0.94
@@ -9,12 +9,12 @@ dragMultiplier: 1.06
 color: "ffcbdd"
 effectChance: 0.05
 effect: {
-  type: ParticleEffect
-  particles: 1
-  sizeFrom: 2
-  sizeTo: 0
-  colorFrom: BB68C3
-  colorTo: FFCBDD
-  interp: pow2Out
-  sizeInterp: pow2Out
+	type: ParticleEffect
+	particles: 1
+	sizeFrom: 2
+	sizeTo: 0
+	colorFrom: BB68C3
+	colorTo: FFCBDD
+	interp: pow2Out
+	sizeInterp: pow2Out
 }

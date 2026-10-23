@@ -1,19 +1,19 @@
 type: tank
 name: Glony
-description: Fires basic tank shells. Is lightly armored, fast and amphibious.
+description: Fires basic tank shells. Is lightly armored, fast, and amphibious.
 hitSize: 12
 treadPullOffset: 10
 treadRects: [
-  {
-    x: -18 // 14 - 32
-    y: -30 // 2 - 32
-    width: 13
-    height: 60
-  }
+	{
+		x: -18 // 14 - 32
+		y: -30 // 2 - 32
+		width: 13
+		height: 60
+	}
 ]
 
 health: 150
-armor: 9
+armor: 5
 speed: 0.85
 rotateSpeed: 3.5
 itemCapacity: 0
@@ -25,33 +25,33 @@ omniMovement: false
 faceTarget: false
 
 weapons: [
-  {
-    x: 0
-    y: 2.5
-    name: idaeus-light-cannon
-    reload: 60
-    mirror: false
-    rotate: true
-    shootSound: shoot
-    ejectEffect: casing2
-    rotateSpeed: 2.75
-    predictTarget: true
+	{
+		x: 0
+		y: 2.5
+		name: idaeus-light-cannon
+		reload: 60
+		mirror: false
+		rotate: true
+		shootSound: shoot
+		ejectEffect: casing2
+		rotateSpeed: 2.75
+		predictTarget: true
 
-    bullet: {
-      type: BasicBulletType
-      sprite: missile-large
-      width: 5
-      height: 8
-      damage: 20
-      speed: 7.5
-      lifetime: 19
+		bullet: {
+			type: BasicBulletType
+			sprite: missile-large
+			width: 5
+			height: 8
+			damage: 20
+			speed: 7.5
+			lifetime: 19
 
-      trailWidth: 1.55
-      trailLength: 5
-      trailColor: f9c27aff
-      collidesAir: false
-    }
-  }
+			trailWidth: 1.55
+			trailLength: 5
+			trailColor: f9c27aff
+			collidesAir: false
+		}
+	}
 ]
 
-research: unit-fabricator
+//research: unit-fabricator

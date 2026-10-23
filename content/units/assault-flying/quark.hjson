@@ -14,31 +14,38 @@ immunities: [freezing]
 itemCapacity: 10
 
 weapons: [{
-  type: Weapon
-  top: false
-  x: 0
-  y: 0
-  mirror: false
-  ejectEffect: casing1
+	type: Weapon
+	top: false
+	x: 0
+	y: 0
+	mirror: false
+	ejectEffect: casing1
 
-  rotate: false
-  shootCone: 10
-  inaccuracy: 1
-  reload: 12
-  targetInterval: 10
-  targetSwitchInterval: 10
+	rotate: false
+	shootCone: 10
+	inaccuracy: 1
+	reload: 12
   
-  bullet: {
-     type: BasicBulletType
-     width: 4
-     height: 6
-     damage: 8
-     speed: 7.5
-     lifetime: 16
-     trailWidth: 1
-     trailLength: 5
-     trailColor: f9c27aff
-  }
+	bullet: {
+		type: BasicBulletType
+		width: 4
+		height: 6
+		damage: 8
+		speed: 7.5
+		lifetime: 16
+		trailWidth: 1
+		trailLength: 5
+		trailColor: f9c27aff
+	}
 }]
-alwaysUnlocked: false
-research: unit-fabricator
+
+researchCostMultiplier: 25
+research: {
+	parent: unit-fabricator
+	objectives: [
+		{
+			type: SectorComplete
+			preset: neo-outpost
+		}
+	]
+}

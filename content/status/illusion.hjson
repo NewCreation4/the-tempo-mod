@@ -13,3 +13,5 @@ effect: {
   interp: pow2Out
   sizeInterp: pow2Out
 }
+
+show: false

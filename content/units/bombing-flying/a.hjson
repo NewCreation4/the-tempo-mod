@@ -20,42 +20,43 @@ immunities: [freezing, blasted, shocked]
 itemCapacity: 0
 
 weapons: [
-  {
-    minShootVelocity: 0.75
-    x: 3
-    shootY: 0
-    reload: 16
-    shootCone: 180
-    ejectEffect: none
-    inaccuracy: 15
-    ignoreRotation: true
-    shootSound: none
-    bullet: {
-      type: BombBulletType
-      width: 10
-      height: 14
-      frontColor: FFEC76
-      backColor: CAB933
-      hitEffect: flakExplosion
-      shootEffect: none
-      smokeEffect: none
-      status: burning
-      statusDuration: 300
-      splashDamage: 8
-      splashDamageRadius: 24
-      incendAmount: 1
-      incendChance: 1
-    }
-  }
+	{
+		minShootVelocity: 0.75
+		x: 3
+		shootY: 0
+		reload: 16
+		shootCone: 180
+		ejectEffect: none
+		inaccuracy: 15
+		ignoreRotation: true
+		shootSound: none
+		bullet: {
+			type: BombBulletType
+			width: 10
+			height: 14
+			frontColor: FFEC76
+			backColor: CAB933
+			hitEffect: flakExplosion
+			shootEffect: none
+			smokeEffect: none
+			status: burning
+			statusDuration: 300
+			splashDamage: 8
+			splashDamageRadius: 24
+			incendAmount: 1
+			incendChance: 1
+		}
+	}
 ]
-alwaysUnlocked: false
+
+researchCostMultiplier: 25
 research: {
-  parent: unit-fabricator
-  objectives: [
-    magnesium,
-    {
-      type: SectorComplete
-      preset: neo-outpost
-    }
-  ]
+	parent: unit-fabricator
+	objectives: [
+		magnesium,
+		{
+			type: SectorComplete
+			preset: neo-outpost
+		}
+	]
 }

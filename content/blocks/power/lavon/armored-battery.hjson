@@ -4,18 +4,18 @@ name: Armored Battery
 description: Stores power and outputs it when needed.
 size: 1
 
-health: 180
+health: 100
 armor: 3
 
 consumes: {
- powerBuffered: 2500
+	powerBuffered: 2500
 }
 
 research: power-transport
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.4
 requirements: [
-  beryllium/10
-  titanium/30
-  magnesium/20
-  sulphur/20
+	beryllium/15
+	titanium/25
+	magnesium/20
+	sulphur/20
 ]

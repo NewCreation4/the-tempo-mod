@@ -7,10 +7,10 @@ size: 2
 hasPower: true
 
 coolant: {
-  type: ConsumeCoolant
-  allowGas: false
-  allowLiquid: true
-  amount: 0.1
+	type: ConsumeCoolant
+	allowGas: false
+	allowLiquid: true
+	amount: 0.1
 }
 targetAir: false
 liquidCapacity: 15
@@ -19,62 +19,62 @@ reload: 100
 recoil: 1.3
 
 consumes: {
-  power: 77.7777777
-  liquid: hydrogen/0.1
+	power: 77.7777777
+	liquid: hydrogen/0.1
 }
 
 range: 120
 shootType: {
-type: ContinuousFlameBulletType
-    chargeEffect: {
-      type: MultiEffect
-      effects: [
-        {
-          lifetime: 100
-          colorFrom: fffc4d
-          colorTo: dbd800
-          sizeFrom: 0
-          sizeTo: 2
-          baseLength: -45
-          length: 45
-          particles: 15
-        }
-        {
-          lifetime: 70
-          colorFrom: fffc4d
-          colorTo: dbd800
-          sizeFrom: 0
-          sizeTo: 2
-          baseLength: -65
-          length: 45
-          offset: 30
-          particles: 10
-        }
-      ]
-    }
-    colors: [FF61FC, F100ED, D400D0]
-    length: 140
-    damage: 104
-    lifetime: 26
-    status: vibrated
-    statusDuration: 600
-    drawSize: 400
-    pierce: true
-    buildingDamageMultiplier: 0.7
-    knockback: 60
-    hitEffect: {
-      type: WaveEffect
-      sizeFrom: 0
-      sizeTo: 60
-      colorFrom: ff0000
-      colorTo: 000000
-    }
-    impact: true
-    collidesAir: false
-    //healPercent: 5
+	type: ContinuousFlameBulletType
+	chargeEffect: {
+		type: MultiEffect
+		effects: [
+			{
+				lifetime: 100
+				colorFrom: fffc4d
+				colorTo: dbd800
+				sizeFrom: 0
+				sizeTo: 2
+				baseLength: -45
+				length: 45
+				particles: 15
+			}
+			{
+				lifetime: 70
+				colorFrom: fffc4d
+				colorTo: dbd800
+				sizeFrom: 0
+				sizeTo: 2
+				baseLength: -65
+				length: 45
+				offset: 30
+				particles: 10
+			}
+		]
+	}
+	colors: [FF61FC, F100ED, D400D0]
+	length: 140
+	damage: 104
+	lifetime: 26
+	status: vibrating
+	statusDuration: 600
+	drawSize: 400
+	pierce: true
+	buildingDamageMultiplier: 0.7
+	knockback: 60
+	hitEffect: {
+		type: WaveEffect
+		sizeFrom: 0
+		sizeTo: 60
+		colorFrom: ff0000
+		colorTo: 000000
+	}
+	impact: true
+	collidesAir: false
+	//healPercent: 5
 }
 
 research: radiance
 requirements: [
-  beryllium/333
+	beryllium/333
 ]

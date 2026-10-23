@@ -1,21 +1,24 @@
 type: GenericCrafter
 category: crafting
 name: Meta Fuser
+health: 1700
 description: "Fuses chromium, titanium, tungsten and cobalt into batches of meta alloy. Requires hydrogen, fluorite and power."
 size: 4
-health: 1700
 
 liquidCapacity: 70
 itemCapacity: 15
 consumes: {
-  power: 3.5
-  items: [
-    chromium/5
-    titanium/5
-    cobalt/5
-    fluorite/1
-  ]
-  liquid: hydrogen/0.1
+	power: 3.5
+	items: [
+		chromium/5
+		titanium/5
+		cobalt/5
+		fluorite/1
+	]
+	liquids: [
+		hydrogen/0.1
+		ozone/0.0333333333
+	]
 }
 craftTime: 120
 outputItem: meta-alloy/8
@@ -23,25 +26,26 @@ outputItem: meta-alloy/8
 ambientSound: loopSmelter
 craftEffect: none
 drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawArcSmelt
-    }
-    {
-      type: DrawDefault
-    }
-  ]
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom
+		}
+		{
+			type: DrawArcSmelt
+		}
+		{
+			type: DrawDefault
+		}
+	]
 }
 
 research: silicon-refinery
 requirements: [
-  beryllium/140
-  silicon/130
-  chromium/150
-  cobalt/100
+	beryllium/120
+	silicon/130
+	oxide/120
+	chromium/145
+	cobalt/100
 ]

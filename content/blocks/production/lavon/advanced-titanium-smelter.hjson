@@ -50,8 +50,8 @@ research: {
 }
 
 requirements: [
-	beryllium/140
-	oxide/80
+	beryllium/120
+	oxide/100
 	silicon/120
-	chromium/15
+	chromium/40
 ]

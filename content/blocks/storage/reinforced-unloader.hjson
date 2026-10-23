@@ -1,16 +1,16 @@
 type: Unloader
 name: Armored Unloader
-description: Unloads items from any building.
+description: Unloads items from most buildings.
 size: 1
 
-health: 120
+health: 100
 armor: 1
 
 category: distribution
 research: armored-container
 requirements: [
-  titanium/10
-  silicon/10
+	titanium/8
+	silicon/6
 ]
 speed: 4
 solid: false

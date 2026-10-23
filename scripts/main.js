@@ -13,7 +13,7 @@ Events.run(ClientLoadEvent, () => {
 	}
 	lavon.campaignRuleDefaults.hideSpawns = true
 	lavon.campaignRuleDefaults.rtsAI = true
-	lavon.campaignRuleDefaults.sectorInvasion = false
+	lavon.campaignRuleDefaults.sectorInvasion = true
 
 	const modItem = name => Vars.content.item("ttm-" + name),
 	modPlanet = name => Vars.content.planet("ttm-" + name),

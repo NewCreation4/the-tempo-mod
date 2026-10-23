@@ -81,7 +81,7 @@ research: {
 	]
 }
 requirements: [
-	beryllium/100
-	oxide/120
+	beryllium/80
+	oxide/100
 	silicon/80
 ]

@@ -1,87 +1,87 @@
 type: ItemTurret
 category: turret
-name: Slash
-description: Rapidly fires bullets at both ground and air enemy units
+name: Dichrome
+description: Rapidly fires bullets at both ground and aerial enemy units.
 size: 2
 
 reload: 14
 inaccuracy: 1
 range: 160
-health: 1350
+health: 1200
 maxAmmo: 30
 ammoPerShot: 1
 
 coolant: {
-  type: ConsumeCoolant
-  allowGas: false
-  allowLiquid: true
-  amount: 0.15
+	type: ConsumeCoolant
+	allowGas: false
+	allowLiquid: true
+	amount: 0.15
 }
 coolantMultiplier: 0.5
 
 ammoTypes: {
-  beryllium: {
-    type: BasicBulletType
-    width: 5
-    height: 7
-    speed: 8
-    lifetime: 23
-    damage: 10
-    buildingDamageMultiplier: 0.5
-    ammoMultiplier: 5
-    trailWidth: 1.4
-    trailLength: 5
-    trailColor: f9c27aff
-  }
-  titanium: {
-    type: BasicBulletType
-    width: 5
-    height: 7
-    speed: 8
-    lifetime: 23
-    damage: 12
-    buildingDamageMultiplier: 0.5
-    ammoMultiplier: 5
-    armorMultiplier: 0.95
-    trailWidth: 1.4
-    trailLength: 5
-    trailColor: f9c27aff
-  }
-  chromium: {
-    type: BasicBulletType
-    width: 5
-    height: 7
-    speed: 8
-    lifetime: 23
-    damage: 14
-    buildingDamageMultiplier: 0.5
-    armorMultiplier: 0.9
-    ammoMultiplier: 6
-    trailWidth: 1.4
-    trailLength: 5
-    trailColor: f9c27aff
-  }
-  silicon: {
-    type: BasicBulletType
-    width: 5
-    height: 7
-    speed: 8
-    lifetime: 27
-    damage: 12
-    buildingDamageMultiplier: 0.5
-    rangeChange: 40
-    homingRange: 80
-    homingPower: 0.1
-    ammoMultiplier: 5
-    trailWidth: 1.4
-    trailLength: 5
-    trailColor: f9c27aff
-  }
+	beryllium: {
+		type: BasicBulletType
+		width: 5
+		height: 7
+		speed: 8
+		lifetime: 23
+		damage: 10
+		buildingDamageMultiplier: 0.5
+		ammoMultiplier: 5
+		trailWidth: 1.4
+		trailLength: 5
+		trailColor: f9c27aff
+	}
+	titanium: {
+		type: BasicBulletType
+		width: 5
+		height: 7
+		speed: 8
+		lifetime: 23
+		damage: 12
+		buildingDamageMultiplier: 0.5
+		ammoMultiplier: 5
+		armorMultiplier: 0.95
+		trailWidth: 1.4
+		trailLength: 5
+		trailColor: f9c27aff
+	}
+	chromium: {
+		type: BasicBulletType
+		width: 5
+		height: 7
+		speed: 8
+		lifetime: 23
+		damage: 14
+		buildingDamageMultiplier: 0.5
+		armorMultiplier: 0.9
+		ammoMultiplier: 5
+		trailWidth: 1.4
+		trailLength: 5
+		trailColor: f9c27aff
+	}
+	silicon: {
+		type: BasicBulletType
+		width: 5
+		height: 7
+		speed: 8
+		lifetime: 27
+		damage: 12
+		buildingDamageMultiplier: 0.5
+		rangeChange: 40
+		homingRange: 80
+		homingPower: 0.1
+		ammoMultiplier: 5
+		trailWidth: 1.4
+		trailLength: 5
+		trailColor: f9c27aff
+	}
 }
 
 research: exponentiation
 researchCostMultiplier: 0.05
 requirements: [
-  beryllium/70
-  silicon/45
+	beryllium/60
+	silicon/40
 ]

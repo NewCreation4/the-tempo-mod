@@ -1,14 +1,15 @@
 type: Wall
 category: defense
 name: Reinforced Titanium Wall
-description: Protects structures from enemy projectiles.
 size: 1
-
 health: 525
 armor: 3
+description: Protects structures from enemy projectiles.
 
+buildCostMultiplier: 0.95
+researchCostMultiplier: 0.2
 research: dichrome
 requirements: [
- titanium/6
- beryllium/2
+	titanium/6
+	beryllium/2
 ]

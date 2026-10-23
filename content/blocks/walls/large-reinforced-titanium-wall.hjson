@@ -1,14 +1,16 @@
 type: Wall
 category: defense
 name: Large Reinforced Titanium Wall
-description: Protects structures from enemy projectiles.
 size: 2
-
 health: 2100
 armor: 3
 
+description: Protects structures from enemy projectiles.
+
+buildCostMultiplier: 0.95
+researchCostMultiplier: 0.2
 research: reinforced-titanium-wall
 requirements: [
- titanium/24
- beryllium/8
+	titanium/24
+	beryllium/8
 ]

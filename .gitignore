@@ -1,4 +1,5 @@
 Makefile
+content/planets/*.txt
 content/liquids/idaeus/*.txt
 content/liquids/*.txt
 content/items/*.txt
@@ -9,3 +10,4 @@ content/blocks/turrets/idaeus/*.txt
 content/blocks/turrets/idaeus/steamtest.hjson
 content/blocks/power/*.txt
 content/units/*.txt
+*.txt

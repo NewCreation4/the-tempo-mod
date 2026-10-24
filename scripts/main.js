@@ -1,8 +1,9 @@
 require("liquids")
 require("blocks")
+require("planets")
 
 Events.run(ClientLoadEvent, () => {
-	let lavon = Vars.content.planet("ttm-lavon")
+	/*let lavon = Vars.content.planet("ttm-lavon")
 	lavon.ruleSetter = r => {
 		r.waveTeam = Team.blue
 		r.hideSpawns = true
@@ -70,5 +71,5 @@ Events.run(ClientLoadEvent, () => {
 	vanillaLiquids.forEach(liquid=>{
 		liquid.databaseTabs.add(modPlanet("lavon"))
 		liquid.shownPlanets.add(modPlanet("lavon"))
-	})
+	})*/
 })

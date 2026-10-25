@@ -7,7 +7,7 @@ liquidCapacity: 280
 range: 7
 
 category: liquid
-research: liquid-pipe-router
+research: pipe-bridge
 underBullets: true
 requirements: [
 	beryllium/10

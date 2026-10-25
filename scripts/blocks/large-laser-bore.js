@@ -1,4 +1,4 @@
-const { fluorine } = require("liquids/fluorine")
+const { fluorine } = require("liquids")
 
 const largeLaserBore = extend(BeamDrill, "large-laser-bore", {})
 largeLaserBore.consumeLiquid(Liquids.hydrogen, 2 / 60)

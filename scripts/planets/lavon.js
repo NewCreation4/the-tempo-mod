@@ -60,3 +60,7 @@ lavon.cloudMeshLoader = () => hexSkyMesh({
 	scl: 2,
 	thresh: 0.4
 })
+
+module.exports = {
+	lavon: lavon
+}

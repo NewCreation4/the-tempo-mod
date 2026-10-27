@@ -8,6 +8,7 @@ liquidCapacity: 24
 pumpAmount: 0.2
 squareSprite: false
 
+research: tidal-drill
 requirements: [
 	silver/24
 ]

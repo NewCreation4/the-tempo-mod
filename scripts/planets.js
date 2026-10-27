@@ -1,5 +1,6 @@
 require("planets/kathom")
 
+require("planets/idaeus-techtree")
 require("planets/idaeus")
 require("planets/yarok")
 

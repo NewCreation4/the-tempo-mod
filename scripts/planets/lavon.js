@@ -30,6 +30,7 @@ lavon.sectorSeed = 4
 lavon.alwaysUnlocked = true
 lavon.accessible = true
 
+lavon.landCloudColor = Color.valueOf("ffffffaa")
 lavon.atmosphereColor = Color.valueOf("000030")
 lavon.atmosphereRadIn = 0.02
 lavon.atmosphereRadOut = 0.065

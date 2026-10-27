@@ -48,6 +48,7 @@ drawer: {
 	]
 }
 
+research: fire-heater
 requirements: [
 	silver/145
 	graphite/55

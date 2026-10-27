@@ -1,8 +1,10 @@
 type: Incinerator
 name: Incinerator
 category: crafting
-health: 50
+health: 40
 hasPower: false
+
+research: tidal-drill
 requirements: [
-  silver/20
+	silver/20
 ]

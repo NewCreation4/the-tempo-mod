@@ -7,14 +7,15 @@ health: 180
 
 itemCapacity: 10
 consumes: {
-  itemFlammable: {
-    minFlammability: 0.2
-  }
+	itemFlammable: {
+		minFlammability: 0.2
+	}
 }
 craftTime: 120
 heatOutput: 5
 
+research: tidal-drill
 requirements: [
-  silver/34
-  graphite/36
+	silver/34
+	graphite/36
 ]

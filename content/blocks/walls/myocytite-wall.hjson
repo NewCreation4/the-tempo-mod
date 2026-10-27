@@ -9,7 +9,7 @@ health: 600 // can increase up to 7200
 solid: true
 update: true
 
-//research: reinforced-titanium-wall
+research: silver-wall
 requirements: [
-	coal/6
+	coal/48
 ]

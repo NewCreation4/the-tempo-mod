@@ -1,0 +1,20 @@
+name: "Core: Polity"
+description: Core of the base, armored. Once destroyed, the sector is lost.
+
+category: effect
+alwaysUnlocked: true
+
+health: 2000
+armor: 1
+size: 3
+itemCapacity: 2000
+requirements: [
+	silver/750
+	graphite/500
+	silicon/750
+]
+
+isFirstTier: true
+unitType: oxypetala
+
+squareSprite: true

@@ -1,0 +1,54 @@
+type: GenericCrafter
+category: crafting
+name: Brucite Reducer
+description: "Produces pure magnesium from brucite with beryllium, produces oxide and water as a byproduct. Requires power, hydrogen, and ozone."
+size: 3
+health: 800
+
+itemCapacity: 20
+liquidCapacity: 40
+consumes: {
+	power: 1
+	items: [
+		brucite/4
+		beryllium/2
+	]
+	liquids: [
+		hydrogen/0.1
+		ozone/0.0333333333
+	]
+}
+craftTime: 90
+outputItems: [
+	oxide/2
+	magnesium/2
+]
+outputLiquid: water/0.25
+ignoreLiquidFullness: true
+
+ambientSound: loopSmelter
+craftEffect: none
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom
+		}
+		{
+			type: DrawArcSmelt
+		}
+		{
+			type: DrawDefault
+		}
+	]
+}
+
+research: water-electrolyzer
+researchCostMultiplier: 0.05
+requirements: [
+	beryllium/85
+	silicon/85
+	titanium/85
+	oxide/85
+]

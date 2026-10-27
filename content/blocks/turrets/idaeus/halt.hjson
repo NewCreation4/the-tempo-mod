@@ -103,6 +103,7 @@ drawer: {
 }
 
 buildCostMultiplier: 3
+research: polity
 requirements: [
 	silver/370
 ]

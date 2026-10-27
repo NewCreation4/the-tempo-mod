@@ -6,6 +6,7 @@ size: 2
 
 health: 1200
 
+research: silver-wall
 requirements: [
- silver/24
+	silver/24
 ]

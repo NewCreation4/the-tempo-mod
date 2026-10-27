@@ -1,0 +1,22 @@
+name: Oxypetala
+description: Unit only capable of building. Responsible for protecing the Polity core through its structures.
+
+flying: true
+health: 100
+armor: 0
+hitSize: 5
+speed: 2.5
+rotateSpeed: 5
+accel: 0.4
+
+itemCapacity: 30
+buildSpeed: 1
+mineTier: 2
+mineWalls: true
+mineSpeed: 5
+
+coreUnitDock: true
+immunities: [wet]
+
+research: polity
+alwaysUnlocked: true

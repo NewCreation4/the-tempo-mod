@@ -46,7 +46,8 @@ ammoTypes: {
 }
 
 buildCostMultiplier: 3
+research: halt
 requirements: [
-	silver/150
-	titanium/200
+	silver/200
+	titanium/150
 ]

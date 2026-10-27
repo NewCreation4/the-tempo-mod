@@ -6,6 +6,7 @@ size: 1
 
 health: 300
 
+research: halt
 requirements: [
- silver/6
+	silver/6
 ]

@@ -62,8 +62,9 @@ drawer: {
 }
 
 buildCostMultiplier: 3
+research: halt
 requirements: [
-	silver/190
-	graphite/80
-	titanium/110
+	silver/150
+	graphite/75
+	titanium/150
 ]

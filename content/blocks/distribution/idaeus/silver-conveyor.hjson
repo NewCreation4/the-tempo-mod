@@ -3,10 +3,11 @@ name: Silver Conveyor
 description: Transports items, like all conveyors.
 details: Moves items slightly faster than serpulo's basic conveyor.
 
-health: 45
+health: 40
 speed: 0.046
 displayedSpeed: 6.5
 
+research: polity
 requirements: [
-  silver/1
+	silver/1
 ]

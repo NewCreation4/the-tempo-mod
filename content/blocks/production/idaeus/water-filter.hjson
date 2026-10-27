@@ -43,6 +43,7 @@ drawer: {
 	]
 }
 
+research: tidal-pump
 requirements: [
 	silver/30
 	coal/15

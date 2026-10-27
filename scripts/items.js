@@ -4,7 +4,8 @@ const chromium = Item("chromium"),
 	fluorite = Item("fluorite"),
 	metaAlloy = Item("meta-alloy"),
 	sulphur = Item("sulphur"),
-	uranium = Item("uranium")
+	uranium = Item("uranium"),
+	silver = Item("silver")
 
 module.exports = {
 	chromium: chromium,
@@ -13,5 +14,6 @@ module.exports = {
 	fluorite: fluorite,
 	metaAlloy: metaAlloy,
 	sulphur: sulphur,
-	uranium: uranium
+	uranium: uranium,
+	silver: silver
 }

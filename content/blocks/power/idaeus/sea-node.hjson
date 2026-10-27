@@ -11,10 +11,10 @@ placeableLiquid: true
 maxNodes: 10
 laserRange: 6
 
-//research: kinetic-extractor
-alwaysUnlocked: true
+research: steam-turbine
+alwaysUnlocked: false
 researchCostMultiplier: 0.5
 requirements: [
-  silver/10
-  graphite/4
+	silver/11
+	graphite/4
 ]

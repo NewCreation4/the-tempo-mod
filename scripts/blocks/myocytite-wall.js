@@ -1,7 +1,7 @@
 const adaptationMultiplier = 1
 
 const myocytiteWall = extend(Wall, "myocytite-wall", {
-	maxAdaptation: 6600,
+	maxAdaptation: 7200,
 	setBars() {
 		this.super$setBars()
 		this.addBar("adaptation", (entity) => {
@@ -9,7 +9,7 @@ const myocytiteWall = extend(Wall, "myocytite-wall", {
 				() => Core.bundle.get("bar.adaptation", "Adaptation"),
 				() => Color.valueOf("ff9999"),
 				() => {
-					return (entity.maxHealth == undefined ? 0.5 : (entity.maxHealth - this.health) / this.maxAdaptation);
+					return (entity.maxHealth == undefined ? 0.5 : (entity.maxHealth - this.health) / (this.maxAdaptation - this.health));
 				}
 			);
 		})
@@ -17,29 +17,23 @@ const myocytiteWall = extend(Wall, "myocytite-wall", {
 })
 
 myocytiteWall.buildType = () => extend(Wall.WallBuild, myocytiteWall, {
-	adaptation: 0,
 	created() {
 		this.super$created();
-		if (this.adaptation == undefined) this.adaptation = 0;
 	},
 	write(write) {
 		this.super$write(write)
-		write.i(this.adaptation)
 		write.i(this.maxHealth)
+		write.i(this.health)
 	},
 	read(read, version) {
 		this.super$read(read, version)
-		this.adaptation = read.i()
-		if (version >= 2)
-			this.maxHealth = read.i()
-		else
-			this.maxHealth = myocytiteWall.health
+		this.maxHealth = read.i()
+		this.health = read.i()
 	},
 	collision(bullet) {
 		let result = this.super$collision(bullet)
-		let gains = (this.adaptation + Math.ceil(bullet.damage / 4)) * adaptationMultiplier
-		this.adaptation = gains > myocytiteWall.maxAdaptation ? myocytiteWall.maxAdaptation : gains
-		this.maxHealth = myocytiteWall.health + this.adaptation
+		let gains = (this.maxHealth + Math.ceil(bullet.damage * bullet.buildingDamageMultiplier / 2)) * adaptationMultiplier
+		this.maxHealth = gains > myocytiteWall.maxAdaptation ? myocytiteWall.maxAdaptation : gains
 		return result
 	}
 })

@@ -17,5 +17,5 @@ breakSound: plantBreak
 destroySound: plantBreak
 buildVisibility: editorOnly
 requirements: [
-  coal/2
+	coal/2
 ]

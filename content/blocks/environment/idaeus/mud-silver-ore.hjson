@@ -1,5 +1,11 @@
+// Meant to be submerged in purple water.
 type: Floor
 name: Silver
 variants: 3
 itemDrop: silver
 edge: mud
+blendGroup: mud
+
+attributes: {
+	water: 1
+}

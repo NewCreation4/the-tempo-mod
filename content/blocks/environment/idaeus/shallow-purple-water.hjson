@@ -6,7 +6,7 @@ isLiquid: true
 speedMultiplier: 0.5
 variants: 0
 status: wet
-statusDuration: 90
+statusDuration: 120
 cacheLayer: water
 albedo: 0.9
 supportsOverlay: true

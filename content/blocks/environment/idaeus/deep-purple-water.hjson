@@ -7,7 +7,7 @@ speedMultiplier: 0.2
 variants: 0
 liquidMultiplier: 1.5
 status: wet
-statusDuration: 180
+statusDuration: 240
 drownTime: 200
 cacheLayer: water
 albedo: 0.9

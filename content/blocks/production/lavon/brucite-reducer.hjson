@@ -7,11 +7,12 @@ health: 800
 
 itemCapacity: 20
 liquidCapacity: 40
+hasLiquids: true
 consumes: {
 	power: 1
 	items: [
-		brucite/4
-		beryllium/2
+		brucite/6
+		beryllium/3
 	]
 	liquids: [
 		hydrogen/0.1
@@ -21,9 +22,9 @@ consumes: {
 craftTime: 90
 outputItems: [
 	oxide/2
-	magnesium/2
+	magnesium/3
 ]
-outputLiquid: water/0.25
+outputLiquid: water/0.1666666666
 ignoreLiquidFullness: true
 
 ambientSound: loopSmelter
@@ -36,10 +37,26 @@ drawer: {
 			suffix: -bottom
 		}
 		{
-			type: DrawArcSmelt
+			type: DrawLiquidTile
+			drawLiquid: water
+		}
+		{
+			type: DrawBubbles
+			color: "7693e3"
+			sides: 10
+			recurrence: 2
+			spread: 5
+			radius: 1.5
+			amount: 20
 		}
 		{
 			type: DrawDefault
+		}
+		{
+			type: DrawGlowRegion
+			alpha: 0.7
+			glowIntensity: 0.3
+			glowScale: 8
 		}
 	]
 }
@@ -48,7 +65,7 @@ research: water-electrolyzer
 researchCostMultiplier: 0.05
 requirements: [
 	beryllium/85
-	silicon/85
 	titanium/85
+	silicon/100
 	oxide/85
 ]

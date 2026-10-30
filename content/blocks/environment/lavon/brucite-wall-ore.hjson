@@ -1,0 +1,5 @@
+type: OreBlock
+name: Brucite
+variants: 3
+itemDrop: brucite
+wallOre: true

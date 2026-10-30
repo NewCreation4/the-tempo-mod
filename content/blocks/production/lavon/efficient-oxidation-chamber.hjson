@@ -13,7 +13,7 @@ consumes: {
 		beryllium/2
 	]
 }
-craftTime: 120
+craftTime: 90
 outputItem: oxide/2
 
 ambientSound: loopExtract

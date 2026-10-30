@@ -1,6 +1,6 @@
 type: ItemTurret
 category: turret
-name: Irradiate
+name: Radiance
 description: Fires bright electric burning metal bullets at enemy ground units.
 size: 2
 

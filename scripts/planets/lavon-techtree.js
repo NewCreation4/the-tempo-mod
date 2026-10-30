@@ -1,10 +1,11 @@
-const { chromium, cobalt, fluorite, magnesium, sulphur, metaAlloy } = require("items")
+const { chromium, cobalt, fluorite, magnesium, sulphur, metaAlloy, brucite } = require("items")
 const { brine, fluorine } = require("liquids")
 const { exponentiation } = require("cores")
 const { lavon } = require("planets/lavon")
 
 lavon.techTree = TechTree.nodeRoot("Lavon", exponentiation, true, () => {
 	TechTree.nodeProduce(Items.beryllium, () => {
+		TechTree.nodeProduce(brucite, () => {})
 		TechTree.nodeProduce(Items.silicon, () => {})
 		TechTree.nodeProduce(Items.scrap, () => {})
 		TechTree.nodeProduce(Items.titanium, () => {

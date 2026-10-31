@@ -3,7 +3,7 @@ category: crafting
 name: Silicon Refinery
 description: "Extracts silicon from beryl."
 size: 3
-health: 750
+health: 780
 
 itemCapacity: 20
 consumes: {

@@ -73,7 +73,7 @@ drawer: {
 researchCostMultiplier: 0.25
 research: efficient-oxidation-chamber
 requirements: [
-	beryllium/80
-	oxide/100
+	beryllium/90
 	silicon/80
+	oxide/100
 ]

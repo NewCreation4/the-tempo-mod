@@ -3,8 +3,8 @@ name: Armored Unloader
 description: Unloads items from most buildings.
 size: 1
 
-health: 100
-armor: 1
+health: 95
+armor: 2
 
 category: distribution
 research: armored-container

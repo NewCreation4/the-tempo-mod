@@ -3,7 +3,7 @@ name: Cobalt Conveyor
 description: Moves items faster than a silver conveyor.
 details: Moves items slightly faster than serpulo's titanium conveyor.
 
-health: 80
+health: 85
 speed: 0.1
 displayedSpeed: 14
 

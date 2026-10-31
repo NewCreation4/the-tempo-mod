@@ -35,6 +35,7 @@ lavon.atmosphereColor = Color.valueOf("000030")
 lavon.atmosphereRadIn = 0.02
 lavon.atmosphereRadOut = 0.065
 lavon.orbitRadius = 13
+lavon.tidalLock = true
 
 lavon.updateLighting = false
 

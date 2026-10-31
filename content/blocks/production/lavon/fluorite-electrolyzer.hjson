@@ -62,7 +62,7 @@ researchCostMultiplier: 0.25
 research: efficient-oxidation-chamber
 requirements: [
 	beryllium/110
-	oxide/100
-	silicon/90
 	titanium/80
+	silicon/90
+	oxide/100
 ]

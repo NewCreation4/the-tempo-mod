@@ -1,11 +1,11 @@
 type: Junction
 category: distribution
 name: Duct Junction
-description: Allows for crossing items between 2 ducts.
+description: Acts as a bridge for two crossing ducts.
 size: 1
 
 speed: 1
-health: 100
+health: 95
 
 research: basic-duct
 requirements: [

@@ -3,10 +3,10 @@ category: liquid
 name: Liquid Pipe Router
 description: Distributes inputted liquids to three outputs equally.
 size: 1
-health: 50
+health: 110
 underBullets: true
 solid: false
-liquidCapacity: 120
+liquidCapacity: 150
 liquidPadding: 1.6
 
 research: liquid-pipe-junction

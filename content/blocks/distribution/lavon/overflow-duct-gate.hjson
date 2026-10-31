@@ -2,8 +2,8 @@ type: OverflowDuct
 category: distribution
 name: Overflow Duct Gate
 description: Outputs items to the sides if the front path is blocked.
-
-speed: 1
+health: 95
+speed: 4
 
 research: basic-duct-junction
 requirements: [

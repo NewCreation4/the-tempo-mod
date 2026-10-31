@@ -69,6 +69,6 @@ research: {
 }
 
 requirements: [
-	beryllium/155
-	silicon/60
+	beryllium/140
+	silicon/75
 ]

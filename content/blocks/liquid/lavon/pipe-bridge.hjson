@@ -3,6 +3,7 @@
 category: liquid
 name: Pipe Bridge
 description: Transports liquids over small obstacles.
+health: 110
 
 solid: true
 update: true
@@ -14,11 +15,11 @@ arrowSpacing: 6
 squareSprite: false
 floating: true
 hasPower: false
-liquidCapacity: 120
+liquidCapacity: 100
 range: 4
 
 research: liquid-pipe-router
 requirements: [
-	beryllium/4
-	titanium/8
+	beryllium/10
+	titanium/10
 ]

@@ -4,7 +4,7 @@ name: Femto Processor
 health: 50
 size: 1
 description: Runs basic logic instructions.
-details: I hate logic blocks and not sure what goes on inside other people's head that makes them call these stupid blocks \"simple\", its quite far from it, yeah maybe simple for REALLY basic stuff but the jumps are messy, and to be frank, just learn an actual programming language because this doodoo is worse than programming in real assembly.
+details: "I hate logic blocks and not sure what goes on inside other people's head that makes them call these stupid blocks \"simple\", its quite far from it, yeah maybe simple for REALLY basic stuff but the jumps are messy, and to be frank, just learn an actual programming language because this doodoo is worse than programming in real assembly."
 
 instructionsPerTick: 2.5
 

@@ -3,7 +3,7 @@ category: crafting
 name: Brine Distiller
 description: "Distills brine, producing water, sulphur and magnesium."
 size: 3
-health: 640
+health: 690
 
 itemCapacity: 20
 liquidCapacity: 120
@@ -45,5 +45,5 @@ drawer: {
 researchCostMultiplier: 0.05
 research: laser-bore
 requirements: [
-	beryllium/135
+	beryllium/140
 ]

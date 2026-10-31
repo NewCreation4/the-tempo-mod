@@ -1,11 +1,12 @@
 type: LiquidJunction
-name: Liquid Pipe Junction
-description: Used for going through other pipes.
-solid: false
-health: 250
 category: liquid
+name: Liquid Pipe Junction
+description: Acts as a bridge between two crossing pipes.
+solid: false
+health: 110
 research: liquid-pipe
+
 requirements: [
-  beryllium/2
-  titanium/4
+	beryllium/2
+	titanium/4
 ]

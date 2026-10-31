@@ -2,11 +2,12 @@ type: ItemBridge
 category: distribution
 name: Item Bridge
 description: "Transports items over small obstacles."
+health: 95
 
 fadeIn: false
 moveArrows: false
 range: 4
-transportTime: 4.6153846154
+transportTime: 4
 arrowSpacing: 6
 crushFragile: true
 underBullets: true
@@ -15,6 +16,6 @@ hasPower: false
 
 research: basic-duct-router
 requirements: [
-	beryllium/4
-	titanium/8
+	beryllium/10
+	titanium/10
 ]

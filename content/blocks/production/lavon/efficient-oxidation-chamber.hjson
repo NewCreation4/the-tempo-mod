@@ -3,7 +3,7 @@ category: crafting
 name: Oxidation Chamber
 description: "Oxidizes small batches of beryllium to produce oxide."
 size: 3
-health: 780
+health: 810
 
 itemCapacity: 20
 consumes: {

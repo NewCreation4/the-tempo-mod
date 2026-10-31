@@ -3,16 +3,16 @@ category: distribution
 name: Duct Overpass
 description: Transports items over big obstacles.
 size: 1
-health: 60
+health: 95
 
 itemCapacity: 10
-speed: 4.6153846154
+speed: 4
 range: 7
 squareSprite: false
 configurable: true
 
 research: item-bridge
 requirements: [
-	beryllium/10
-	titanium/19
+	beryllium/20
+	titanium/20
 ]

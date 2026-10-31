@@ -4,10 +4,10 @@ name: Liquid Vat
 description: Stores liquids and outputs them to all sides.
 size: 2
 
-health: 420
+health: 440
 liquidCapacity: 850
+research: liquid-pipe-router
 requirements: [
 	beryllium/8
 	titanium/30
 ]
-research: liquid-pipe-router

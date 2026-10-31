@@ -1,5 +1,5 @@
 name: Oxypetala
-description: Unit only capable of building. Responsible for protecing the Polity core through its structures.
+description: Unit only capable of building and mining. Responsible for protecting the Polity core with the structures it builds.
 
 flying: true
 health: 100

@@ -12,29 +12,31 @@ accel: 0.06
 drag: 0.017
 
 itemCapacity: 30
-payloadCapacity: 312
+payloadCapacity: 300
 buildSpeed: 1
 mineTier: 4
-mineSpeed: 4
+mineSpeed: 6.5
 targetAir: false
 targetGround: false
 
 engineOffset: 10.5
 engineSize: 2.5
 
-weapons: [{
-  type: RepairBeamWeapon
-  top: false
-  x: 0
-  y: 7
-  mirror: false
-  rotate: false
-  repairSpeed: 0.75
-  beamWidth: 0.8
-  bullet: {
-    type: BulletType
-    maxRange: 120
-  }
-}]
+weapons: [
+	{
+		type: RepairBeamWeapon
+		top: false
+		x: 0
+		y: 7
+		mirror: false
+		rotate: false
+		repairSpeed: 0.75
+		beamWidth: 0.8
+		bullet: {
+			type: BulletType
+			maxRange: 120
+		}
+	}
+]
 
-research: quark
+//research: quark

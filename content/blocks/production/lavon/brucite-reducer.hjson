@@ -61,7 +61,7 @@ drawer: {
 	]
 }
 
-research: water-electrolyzer
+research: efficient-oxidation-chamber
 researchCostMultiplier: 0.05
 requirements: [
 	beryllium/85

@@ -71,15 +71,7 @@ drawer: {
 }
 
 researchCostMultiplier: 0.25
-research: {
-	parent: silicon-refinery
-	objectives: [
-		{
-			type: SectorComplete
-			preset: neo-outpost
-		}
-	]
-}
+research: efficient-oxidation-chamber
 requirements: [
 	beryllium/80
 	oxide/100

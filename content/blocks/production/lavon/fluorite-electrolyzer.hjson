@@ -59,17 +59,9 @@ drawer: {
 }
 
 researchCostMultiplier: 0.25
-research: {
-	parent: water-electrolyzer
-	objectives: [
-		{
-			type: SectorComplete
-			preset: neo-outpost
-		}
-	]
-}
+research: efficient-oxidation-chamber
 requirements: [
-	beryllium/120
+	beryllium/110
 	oxide/100
 	silicon/90
 	titanium/80

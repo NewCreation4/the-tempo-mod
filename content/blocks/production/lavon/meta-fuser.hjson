@@ -41,7 +41,7 @@ drawer: {
 	]
 }
 
-research: silicon-refinery
+research: fluorite-electrolyzer
 requirements: [
 	beryllium/120
 	silicon/130

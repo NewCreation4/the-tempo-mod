@@ -14,14 +14,14 @@ lavon.allowLaunchLoadout = true
 lavon.allowLaunchToNumbered = true // true for finding visually matching sectors
 lavon.enemyInfiniteItems = false
 lavon.ruleSetter = r => {
+	r.planet = lavon
 	r.waveTeam = Team.blue
 	r.coreDestroyClear = true
 	r.wavesSpawnAtCores = false
-	r.planet = lavon
 	r.lighting = true
 	r.ambientLight = Color.valueOf("1c1c703b")
 	r.unitLight = false
-	r.solarMultiplier = 0.04
+	r.solarMultiplier = 0.05
 	r.hideSpawns = false
 }
 

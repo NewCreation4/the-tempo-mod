@@ -1,5 +1,6 @@
 const { hexSkyMesh, noiseMesh2 } = require("elegant")
 const { kathom } = require("planets/kathom")
+const { polity } = require("cores")
 
 const idaeus = new Planet("idaeus", kathom, 1.1, 2)
 idaeus.localizedName = "Idaeus"
@@ -23,6 +24,7 @@ idaeus.allowLaunchLoadout = false
 idaeus.allowSectorInvasion = true
 idaeus.allowLaunchToNumbered = true
 idaeus.enemyInfiniteItems = false
+idaeus.defaultCore = polity
 
 idaeus.ambientMusic = Seq.with(
     Vars.tree.loadMusic("heiwazima"),

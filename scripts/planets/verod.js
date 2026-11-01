@@ -8,6 +8,39 @@ verod.meshLoader = () => new NoiseMesh(
 	verod, 777, 4, 4, 7, 0.9, 1, 0.2, Color.valueOf("ff61fc"),
 	Color.valueOf("e960ff"), 1, 1.2, 1.25, 0.45
 );
+verod.solarSystem = kathom
+verod.orbitRadius = 125
+verod.updateLighting = false
+verod.iconColor = Color.valueOf("ff2ad0")
+verod.landCloudColor = Color.valueOf("ca60FFEF")
+verod.defaultEnv = Env.space
+
+verod.alwaysUnlocked = false
+verod.accessible = false
+const params = new PlanetParams()
+params.planet = verod
+params.zoom = 0.01
+verod.ruleSetter = r => {
+	r.planet = verod
+	r.coreDestroyClear = true
+	r.wavesSpawnAtCores = false
+	r.lighting = true
+	r.ambientLight = Color.valueOf("cf338074")
+	r.dynamicColor = Color.valueOf("ff008374")
+	r.cloudColor = Color.valueOf("ff007874")
+	r.unitLight = false
+	r.solarMultiplier = 0.025
+	r.hideSpawns = true
+	r.possessionAllowed = false
+	r.dragMultiplier = 2
+	r.attributes.set(Attribute.water, 0)
+	r.fog = true
+	r.staticFog = false
+	r.borderDarkness = false
+	r.planetBackground = params
+	r.fire = false
+}
+
 verod.cloudMeshLoader = () => MultiMesh(
 	hexSkyMesh({ // highest clouds
 		planet: verod,
@@ -58,17 +91,6 @@ verod.cloudMeshLoader = () => MultiMesh(
 		thresh: 0.7
 	})
 )
-verod.solarSystem = kathom
-verod.alwaysUnlocked = false
-verod.accessible = false
-
-verod.orbitRadius = 125
-verod.updateLighting = false
-verod.iconColor = Color.valueOf("ff2ad0")
-
-/*verod.cloudMeshLoader = () => MultiMesh(
-	new HexSkyMesh(verod, 2, 1, 3.35, 5, Color.valueOf())
-);*/
 
 module.exports = {
 	verod: verod

@@ -12,7 +12,7 @@ function noiseMesh2({ planet, seed, divisions, radius, octaves,
 	return new NoiseMesh(
 		planet, seed, divisions, radius, octaves, persistence, scale,
 		mag, color1, color2, coct, cper, cscl, cthresh
-	)
+	);
 }
 
 module.exports = {

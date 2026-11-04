@@ -33,10 +33,10 @@ drawer: {
 			suffix: -bottom
 		}
 		{
-			type: DrawArcSmelt
+			type: DrawDefault
 		}
 		{
-			type: DrawDefault
+			type: DrawFlame
 		}
 	]
 }
@@ -47,5 +47,5 @@ requirements: [
 	silicon/130
 	oxide/120
 	chromium/145
-	cobalt/100
+	cobalt/105
 ]

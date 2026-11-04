@@ -1,0 +1,15 @@
+type: LiquidRouter
+category: liquid
+name: Pipe Router
+description: Distributes inputted liquids to three outputs equally.
+size: 1
+health: 40
+underBullets: true
+solid: false
+liquidCapacity: 130
+
+research: tidal-pump
+requirements: [
+	silver/2
+	metaglass/2
+]

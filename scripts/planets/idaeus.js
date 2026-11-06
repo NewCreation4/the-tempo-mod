@@ -10,7 +10,7 @@ idaeus.startSector = 35
 idaeus.solarSystem = kathom
 idaeus.orbitRadius = 55
 idaeus.alwaysUnlocked = false
-idaeus.accessible = false
+idaeus.accessible = true
 idaeus.defaultEnv = Env.terrestrial | Env.groundOil | Env.groundWater | Env.oxygen
 idaeus.iconColor = Color.valueOf("ff5050")
 

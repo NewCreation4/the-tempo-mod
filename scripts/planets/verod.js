@@ -16,7 +16,7 @@ verod.landCloudColor = Color.valueOf("ca60FFEF")
 verod.defaultEnv = Env.space
 
 verod.alwaysUnlocked = false
-verod.accessible = false
+verod.accessible = true
 const params = new PlanetParams()
 params.planet = verod
 params.zoom = 0.01

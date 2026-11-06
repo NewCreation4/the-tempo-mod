@@ -1,0 +1,81 @@
+type: ItemTurret
+category: turret
+name: Steam Test
+description: Test super cool steam explosions
+size: 3
+health: 1450
+
+reload: 120
+inaccuracy: 0
+armor: 5
+range: 300
+targetAir: false
+liquidCapacity: 180
+shake: 4.5
+recoil: 3.5
+
+consumes: {
+	liquid: steam/1
+}
+
+maxAmmo: 15
+ammoPerShot: 1
+ammoTypes: {
+	titanium: {
+		type: ArtilleryBulletType
+		width: 15
+		height: 20
+		speed: 6
+		lifetime: 30
+		scaledSplashDamage: true
+		splashDamage: 150
+		splashDamageRadius: 48
+		followAimSpeed: 5
+		shootEffect: shootTitan
+		smokeEffect: shootSmokeTitan
+		hitSound: explosionTitan
+		despawnShake: 10
+		despawnEffect: {
+			type: MultiEffect
+			effects: [
+				{
+					type: WaveEffect
+					lifetime: 20
+					sizeFrom: 1
+					sizeTo: 80
+					strokeFrom: 4
+					strokeTo: 0
+					interp: pow2Out
+					colorFrom: "FFFFFFFF"
+					colorTo: "FFFFFFAA"
+				}
+				{
+					type: ParticleEffect
+					lifetime: 60
+					particles: 27
+					colorFrom: FFFFFFFF
+					colorTo: FFFFFF00
+					cone: 330
+					length: 45
+					baseLength: 5
+					randLength: true
+					sizeFrom: 1
+					sizeTo: 12
+					sizeInterp: pow2Out
+					colorInterp: smooth
+					interp: circleOut // pow5Out
+				}
+			]
+		}
+		buildingDamageMultiplier: 1.5
+		armorMultiplier: 1.5
+		ammoMultiplier: 1
+		collidesAir: false
+	}
+}
+
+buildCostMultiplier: 4
+requirements: [
+	silver/200
+	titanium/180
+]

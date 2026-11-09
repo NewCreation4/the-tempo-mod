@@ -30,7 +30,6 @@ ammoTypes: {
 		scaledSplashDamage: true
 		splashDamage: 150
 		splashDamageRadius: 48
-		followAimSpeed: 5
 		shootEffect: shootTitan
 		smokeEffect: shootSmokeTitan
 		hitSound: explosionTitan

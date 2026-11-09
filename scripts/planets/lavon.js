@@ -6,7 +6,7 @@ const lavon = new Planet("lavon", verod, 0.9, 2)
 lavon.localizedName = "Lavon"
 lavon.solarSystem = kathom
 lavon.generator = new SerpuloPlanetGenerator();
-lavon.defaultEnv = Env.terrestrial | Env.groundWater
+lavon.defaultEnv = Env.terrestrial | Env.groundWater | Env.oxygen
 
 lavon.allowCampaignRules = true
 lavon.allowLaunchSchematics = true

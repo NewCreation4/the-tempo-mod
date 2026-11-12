@@ -7,7 +7,7 @@ size: 2
 reload: 14
 inaccuracy: 1
 range: 160
-health: 1200
+health: 950
 maxAmmo: 30
 ammoPerShot: 1
 
@@ -82,6 +82,6 @@ ammoTypes: {
 research: exponentiation
 researchCostMultiplier: 0.05
 requirements: [
-	beryllium/60
+	beryllium/55
 	silicon/40
 ]

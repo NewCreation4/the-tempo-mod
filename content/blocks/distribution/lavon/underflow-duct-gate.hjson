@@ -9,6 +9,7 @@ health: 95
 
 research: overflow-duct-gate
 requirements: [
-	beryllium/2
-	titanium/4
+	beryllium/5
+	//beryllium/2
+	//titanium/4
 ]

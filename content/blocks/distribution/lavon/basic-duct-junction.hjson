@@ -9,6 +9,7 @@ health: 95
 
 research: basic-duct
 requirements: [
-  beryllium/1
-  titanium/3
+	beryllium/4
+	//beryllium/1
+	//titanium/3
 ]

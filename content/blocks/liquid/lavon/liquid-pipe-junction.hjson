@@ -7,6 +7,6 @@ health: 110
 research: liquid-pipe
 
 requirements: [
-	beryllium/2
-	titanium/4
+	beryllium/6
+	//titanium/4
 ]

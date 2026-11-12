@@ -11,6 +11,7 @@ liquidPadding: 1.6
 
 research: liquid-pipe-junction
 requirements: [
-	beryllium/2
-	titanium/4
+	beryllium/6
+	//beryllium/2
+	//titanium/4
 ]

@@ -42,6 +42,7 @@ shoot: {
 outlineRadius: 3
 shootSound: shootCyclone
 
+maxAmmo: 12
 ammoTypes: {
 	magnesium: {
 		type: BasicBulletType
@@ -55,13 +56,14 @@ ammoTypes: {
 		damage: 14
 		pierceCap: 3
 		pierce: true
-		pierceBuilding: true
 		collidesAir: false
-		ammoMultiplier: 2
+		ammoMultiplier: 1
 		trailWidth: 2
 		trailLength: 7
+		trailInterval: 3
 		trailColor: ffffff
 		trailEffect: disperseTrail
+		trailRotation: true
 		collidesAir: false
 
 		bulletInterval: 3
@@ -105,11 +107,13 @@ ammoTypes: {
 		pierceCap: 2
 		pierce: true
 		collidesAir: false
-		ammoMultiplier: 4
+		ammoMultiplier: 3
 		trailWidth: 2
 		trailLength: 7
+		trailInterval: 3
 		trailColor: 99A8EB
 		trailEffect: disperseTrail
+		trailRotation: true
 		collidesAir: false
 
 		bulletInterval: 3

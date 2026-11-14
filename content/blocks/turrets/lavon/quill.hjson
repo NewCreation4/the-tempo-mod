@@ -54,9 +54,11 @@ ammoTypes: {
 		homingPower: 0.05
 		trailWidth: 1.6
 		trailLength: 7
+		trailInterval: 7
 		hitColor: DAB560
 		trailColor: DAB560
 		trailEffect: disperseTrail
+		trailRotation: true
 	}
 }
 

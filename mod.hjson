@@ -2,11 +2,12 @@ name: "ttm"
 displayName: "The Tempo Mod"
 description: '''
   This one! (not a finished mod)
+  Note: It is recommended to only install release versions, and not from the latest commit.
 '''
 author: '''
   NewCreation4
 '''
 minGameVersion: 160.7
 hideBrowser: true
-version: "0.1.0 alpha"
+version: "0.1.1 alpha"
 repo: "NewCreation4/the-tempo-mod"

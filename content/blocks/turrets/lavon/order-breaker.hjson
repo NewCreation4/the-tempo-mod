@@ -1,6 +1,6 @@
 type: PowerTurret
 category: turret
-health: 1350
+health: 1200
 name: Order
 description: "Outta my lawn buster."
 size: 2
@@ -71,7 +71,6 @@ shootType: {
 	}
 	impact: true
 	collidesAir: false
-	//healPercent: 5
 }
 
 research: radiance

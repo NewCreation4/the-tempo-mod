@@ -11,6 +11,4 @@ health: 95
 research: basic-duct-junction
 requirements: [
 	beryllium/4
-	//beryllium/1
-	//titanium/3
 ]

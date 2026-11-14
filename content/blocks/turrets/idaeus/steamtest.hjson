@@ -62,7 +62,7 @@ ammoTypes: {
 					sizeTo: 12
 					sizeInterp: pow2Out
 					colorInterp: smooth
-					interp: circleOut // pow5Out
+					interp: circleOut
 				}
 			]
 		}

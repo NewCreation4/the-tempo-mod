@@ -5,8 +5,8 @@ hitSize: 12
 treadPullOffset: 10
 treadRects: [
 	{
-		x: -18 // 14 - 32
-		y: -30 // 2 - 32
+		x: -18
+		y: -30
 		width: 13
 		height: 60
 	}

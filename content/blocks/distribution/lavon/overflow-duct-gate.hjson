@@ -8,6 +8,4 @@ speed: 4
 research: basic-duct-junction
 requirements: [
 	beryllium/5
-	//beryllium/2
-	//titanium/4
 ]

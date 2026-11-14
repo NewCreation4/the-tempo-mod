@@ -2,7 +2,7 @@ type: Conduit
 name: Liquid Pipe
 description: Transports liquids forward.
 category: liquid
-health: 110
+health: 95
 
 liquidCapacity: 50
 leaks: true
@@ -13,5 +13,4 @@ underBullets: true
 research: basic-duct
 requirements: [
 	beryllium/2
-	//titanium/2
 ]

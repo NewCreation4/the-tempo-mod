@@ -3,7 +3,7 @@ category: liquid
 name: Liquid Pipe Router
 description: Distributes inputted liquids to three outputs equally.
 size: 1
-health: 110
+health: 95
 underBullets: true
 solid: false
 liquidCapacity: 150
@@ -12,6 +12,4 @@ liquidPadding: 1.6
 research: liquid-pipe-junction
 requirements: [
 	beryllium/6
-	//beryllium/2
-	//titanium/4
 ]

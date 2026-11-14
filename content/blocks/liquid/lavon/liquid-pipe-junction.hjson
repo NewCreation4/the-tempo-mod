@@ -3,10 +3,9 @@ category: liquid
 name: Liquid Pipe Junction
 description: Acts as a bridge between two crossing pipes.
 solid: false
-health: 110
+health: 95
 research: liquid-pipe
 
 requirements: [
 	beryllium/6
-	//titanium/4
 ]

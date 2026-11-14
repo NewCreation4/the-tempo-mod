@@ -19,36 +19,37 @@ coreUnitDock: true
 immunities: [freezing]
 
 weapons: [
- {
-  type: Weapon
-  top: false
-  x: 0
-  y: 0
-  mirror: false
-  ejectEffect: casing1
+	{
+		type: Weapon
+		top: false
+		x: 0
+		y: 0
+		mirror: false
+		ejectEffect: casing1
 
-  rotate: false
-  shootCone: 10
-  inaccuracy: 5
-  reload: 12
-  targetInterval: 1
-  targetSwitchInterval: 1
-  cooldownTime: 150
-  shootSound: shoot
-  
-  bullet: {
-     type: BasicBulletType
-     width: 4
-     height: 6
-     damage: 9
-     speed: 7.5
-     lifetime: 19
-     trailWidth: 1
-     trailLength: 5
-     trailColor: f9c27aff
-     buildingDamageMultiplier: 0.01
-   }
-}]
+		rotate: false
+		shootCone: 10
+		inaccuracy: 5
+		reload: 12
+		targetInterval: 1
+		targetSwitchInterval: 1
+		cooldownTime: 150
+		shootSound: shoot
+	
+		bullet: {
+			type: BasicBulletType
+			width: 4
+			height: 6
+			damage: 9
+			speed: 7.5
+			lifetime: 19
+			trailWidth: 1
+			trailLength: 5
+			trailColor: f9c27aff
+			buildingDamageMultiplier: 0.01
+		}
+	}
+]
 
 research: exponentiation
 alwaysUnlocked: true

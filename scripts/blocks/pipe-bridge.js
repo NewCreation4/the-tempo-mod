@@ -21,7 +21,7 @@ const pipeBridge = extend(LiquidBridge, "pipe-bridge", {
 		}
 	},
 	icons() {
-        return [Core.atlas.find(this.name + "-preview")];
+		return [Core.atlas.find(this.name + "-preview")];
     },
 })
 

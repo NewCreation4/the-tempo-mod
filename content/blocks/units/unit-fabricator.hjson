@@ -4,6 +4,10 @@ name: Unit Fabricator
 description: Produces basic units.
 size: 3
 
+consumes: {
+	power: 1.5
+}
+
 plans: [
 	{
 		unit: omni-p
@@ -39,9 +43,6 @@ plans: [
 		]
 	}
 ]
-consumes: {
-    power: 1.5
-}
 
 researchCostMultiplier: 0.2
 research: armored-container

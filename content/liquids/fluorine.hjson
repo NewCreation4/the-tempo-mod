@@ -5,9 +5,3 @@ flammability: 1.5
 explosiveness: 0
 heatCapacity: 0
 gas: true
-/*research: {
-  parent: salt
-  objectives: [
-    salt-electrolyzer
-  ]
-}*/

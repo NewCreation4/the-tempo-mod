@@ -7,6 +7,6 @@ description: A switch that can be turned on and off and is usually used in conju
 researchCostMultiplier: 0.2
 research: femto-processor
 requirements: [
-  beryllium/20
-  sulphur/15
+	beryllium/20
+	sulphur/15
 ]

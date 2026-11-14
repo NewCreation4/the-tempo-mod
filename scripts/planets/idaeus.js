@@ -27,8 +27,8 @@ idaeus.enemyInfiniteItems = false
 idaeus.defaultCore = polity
 
 idaeus.ambientMusic = Seq.with(
-    Vars.tree.loadMusic("heiwazima"),
-    Vars.tree.loadMusic("tairitsu")
+	Vars.tree.loadMusic("heiwazima"),
+	Vars.tree.loadMusic("tairitsu")
 )
 
 idaeus.meshLoader = () => new MultiMesh(

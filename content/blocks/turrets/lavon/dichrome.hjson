@@ -1,7 +1,7 @@
 type: ItemTurret
 category: turret
 name: Dichrome
-description: Rapidly fires bullets at both ground and aerial enemy units.
+description: "Rapidly fires bullets at both terrestrial and aerial enemy units. Versatile."
 size: 2
 
 reload: 14

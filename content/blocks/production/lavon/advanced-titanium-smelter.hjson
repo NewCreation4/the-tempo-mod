@@ -4,7 +4,7 @@ name: Advanced Titanium Smelter
 description: "Reduces more brookite into titanium using magnesium, with the help of argon gas. Requires hydrogen, ozone, and power."
 details: "Uses way less power and is more capable when compared to its predecessor. It is more efficient overall."
 size: 3
-health: 1310
+health: 1270
 
 itemCapacity: 20
 liquidCapacity: 60
@@ -16,12 +16,12 @@ consumes: {
 		argon/0.0333333333
 	]
 	items: [
-		brookite/5
-		magnesium/5
+		brookite/6
+		magnesium/6
 	]
 }
 craftTime: 60
-outputItem: titanium/5
+outputItem: titanium/6
 
 ambientSound: loopElectricHum
 craftEffect: none

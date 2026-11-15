@@ -5,6 +5,7 @@ const { lavon } = require("planets/lavon")
 
 lavon.techTree = TechTree.nodeRoot("Lavon", exponentiation, true, () => {
 	TechTree.nodeProduce(Items.beryllium, () => {
+		TechTree.nodeProduce(Items.oxide, () => {})
 		TechTree.nodeProduce(brucite, () => {})
 		TechTree.nodeProduce(Items.silicon, () => {})
 		TechTree.nodeProduce(Items.scrap, () => {})

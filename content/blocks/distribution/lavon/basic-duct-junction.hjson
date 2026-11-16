@@ -6,6 +6,7 @@ size: 1
 
 speed: 1
 health: 95
+squareSprite: false
 
 research: basic-duct
 requirements: [

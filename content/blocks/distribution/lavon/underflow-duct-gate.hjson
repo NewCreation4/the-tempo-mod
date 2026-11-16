@@ -6,6 +6,7 @@ description: Opposite of an overflow duct gate, Outputs items to the front if bo
 invert: true
 speed: 4
 health: 95
+squareSprite: false
 
 research: overflow-duct-gate
 requirements: [

@@ -1,0 +1,17 @@
+type: Conduit
+name: Advanced Pipe
+description: Transports liquids forward.
+category: liquid
+health: 130
+
+liquidCapacity: 75
+leaks: false
+junctionReplacement: liquid-pipe-junction
+bridgeReplacement: pipe-bridge
+underBullets: true
+
+research: liquid-pipe
+requirements: [
+	beryllium/1
+	titanium/2
+]

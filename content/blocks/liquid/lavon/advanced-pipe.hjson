@@ -4,7 +4,7 @@ description: Transports liquids forward.
 category: liquid
 health: 130
 
-liquidCapacity: 75
+liquidCapacity: 100
 leaks: false
 junctionReplacement: liquid-pipe-junction
 bridgeReplacement: pipe-bridge

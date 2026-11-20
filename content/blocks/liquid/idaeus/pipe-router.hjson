@@ -11,5 +11,6 @@ liquidCapacity: 130
 research: tidal-pump
 requirements: [
 	silver/2
+	graphite/2
 	metaglass/2
 ]

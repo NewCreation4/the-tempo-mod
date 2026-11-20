@@ -2,5 +2,5 @@ type: Floor
 name: Red Grass
 
 attributes: {
-  water: 0.1
+	water: 0.1
 }

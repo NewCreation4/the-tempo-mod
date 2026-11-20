@@ -18,7 +18,7 @@ researchCostMultiplier: 0.2
 research: unit-fabricator
 requirements: [
 	beryllium/40
-	silicon/60
+	silicon/55
 	oxide/35
 	titanium/35
 ]

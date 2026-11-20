@@ -3,7 +3,7 @@
 category: liquid
 name: Pipe Bridge
 description: Transports liquids over small obstacles.
-health: 110
+health: 130
 
 solid: true
 update: true

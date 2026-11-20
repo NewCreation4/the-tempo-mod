@@ -25,7 +25,6 @@ weapons: [{
 	shootCone: 10
 	inaccuracy: 1
 	reload: 12
-  
 	bullet: {
 		type: BasicBulletType
 		width: 4

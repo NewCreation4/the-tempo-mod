@@ -1,8 +1,10 @@
+const { fluorine } = require("liquids")
+
 const OxidizerEfficiencies = liquid => {
 	switch (true) {
 	case liquid == Liquids.ozone:
 		return 1;
-	case liquid == Vars.content.liquid("ttm-fluorine"):
+	case liquid == fluorine:
 		return 1.5;
 	case liquid.flammability > 1 && liquid != Liquids.cyanogen && liquid.gas:
 		return liquid.flammability;

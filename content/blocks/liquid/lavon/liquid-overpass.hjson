@@ -2,7 +2,7 @@ type: DirectionLiquidBridge
 category: liquid
 name: Pipe Overpass
 description: Transports liquids over large obstacles.
-health: 110
+health: 130
 
 squareSprite: false
 liquidCapacity: 175

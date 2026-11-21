@@ -1,5 +1,3 @@
-const adaptationMultiplier = 1
-
 const myocytiteWall = extend(Wall, "myocytite-wall", {
 	maxAdaptation: 7200,
 	setBars() {
@@ -32,7 +30,7 @@ myocytiteWall.buildType = () => extend(Wall.WallBuild, myocytiteWall, {
 	},
 	collision(bullet) {
 		let result = this.super$collision(bullet)
-		let gains = (this.maxHealth + Math.ceil(bullet.damage * bullet.buildingDamageMultiplier / 2)) * adaptationMultiplier
+		let gains = (this.maxHealth + Math.ceil(bullet.damage * bullet.buildingDamageMultiplier / 2))
 		this.maxHealth = gains > myocytiteWall.maxAdaptation ? myocytiteWall.maxAdaptation : gains
 		return result
 	}

@@ -23,5 +23,5 @@ consumes: {
 researchCostMultiplier: 0.025
 research: kinetic-extractor
 requirements: [
-	beryllium/45
+	beryllium/40
 ]

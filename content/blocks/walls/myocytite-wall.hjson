@@ -13,3 +13,4 @@ research: silver-wall
 requirements: [
 	coal/48
 ]
+buildVisibility: editorOnly

@@ -26,6 +26,7 @@ lavon.techTree = TechTree.nodeRoot("Lavon", exponentiation, true, () => {
 			TechTree.nodeProduce(magnesium, () => {})
 			TechTree.nodeProduce(sulphur, () => {})
 			TechTree.nodeProduce(Liquids.water, () => {
+				TechTree.nodeProduce(Liquids.cryofluid, () => {})
 				TechTree.nodeProduce(Liquids.ozone, () => {})
 				TechTree.nodeProduce(Liquids.hydrogen, () => {})
 			})

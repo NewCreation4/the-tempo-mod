@@ -7,6 +7,7 @@ idaeus.techTree = TechTree.nodeRoot("Idaeus", polity, true, () => {
 	TechTree.nodeProduce(silver, () => {
 		TechTree.nodeProduce(purpleWater, () => {
 			TechTree.nodeProduce(Liquids.water, () => {
+				TechTree.nodeProduce(Liquids.cryofluid, () => {})
 				TechTree.nodeProduce(steam, () => {})
 				TechTree.nodeProduce(acid, () => {})
 			})

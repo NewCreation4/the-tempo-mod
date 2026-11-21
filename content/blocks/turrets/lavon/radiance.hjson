@@ -7,7 +7,7 @@ size: 2
 reload: 30
 inaccuracy: 0
 range: 140
-health: 1510
+health: 830
 targetAir: false
 
 coolant: {
@@ -156,8 +156,9 @@ research: {
 		}
 	]
 }
+
 requirements: [
 	beryllium/40
-	titanium/50
+	titanium/40
 	silicon/40
 ]

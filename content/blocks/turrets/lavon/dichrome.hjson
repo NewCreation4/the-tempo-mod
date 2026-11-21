@@ -7,7 +7,7 @@ size: 2
 reload: 14
 inaccuracy: 1
 range: 160
-health: 950
+health: 790
 maxAmmo: 30
 ammoPerShot: 1
 
@@ -15,9 +15,9 @@ coolant: {
 	type: ConsumeCoolant
 	allowGas: false
 	allowLiquid: true
-	amount: 0.15
+	amount: 0.2
 }
-coolantMultiplier: 0.5
+coolantMultiplier: 1.5
 
 ammoTypes: {
 	beryllium: {

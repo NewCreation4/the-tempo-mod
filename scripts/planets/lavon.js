@@ -1,6 +1,7 @@
 const { hexSkyMesh } = require("elegant")
 const { kathom } = require("planets/kathom")
 const { verod } = require("planets/verod")
+const { exponentiation } = require("cores")
 
 const lavon = new Planet("lavon", verod, 0.9, 2)
 lavon.localizedName = "Lavon"
@@ -8,11 +9,13 @@ lavon.solarSystem = kathom
 lavon.generator = new SerpuloPlanetGenerator();
 lavon.defaultEnv = Env.terrestrial | Env.groundWater | Env.oxygen
 
+lavon.defaultCore = exponentiation
 lavon.allowCampaignRules = true
 lavon.allowLaunchSchematics = true
 lavon.allowLaunchLoadout = true
 lavon.allowLaunchToNumbered = true // true for finding visually matching sectors
 lavon.enemyInfiniteItems = false
+
 lavon.ruleSetter = r => {
 	r.planet = lavon
 	r.waveTeam = Team.blue

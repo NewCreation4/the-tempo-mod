@@ -19,12 +19,12 @@ idaeus.atmosphereRadIn = 0.02
 idaeus.atmosphereRadOut = 0.3
 idaeus.atmosphereColor = Color.valueOf("221990ef")
 
+idaeus.defaultCore = polity
 idaeus.allowLaunchSchematics = false
 idaeus.allowLaunchLoadout = false
 idaeus.allowSectorInvasion = true
 idaeus.allowLaunchToNumbered = true
 idaeus.enemyInfiniteItems = false
-idaeus.defaultCore = polity
 
 idaeus.ambientMusic = Seq.with(
 	Vars.tree.loadMusic("heiwazima"),

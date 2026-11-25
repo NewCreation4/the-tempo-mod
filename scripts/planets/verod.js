@@ -29,7 +29,7 @@ verod.ruleSetter = r => {
 	r.dynamicColor = Color.valueOf("ff008374")
 	r.cloudColor = Color.valueOf("ff007874")
 	r.unitLight = false
-	r.solarMultiplier = 0.025
+	r.solarMultiplier = 0.1
 	r.hideSpawns = true
 	r.possessionAllowed = false
 	r.dragMultiplier = 2

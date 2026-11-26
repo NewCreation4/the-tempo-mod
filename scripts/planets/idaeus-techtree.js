@@ -1,4 +1,4 @@
-const { silver, cobalt, fluorite, sulphur, metaAlloy } = require("items")
+const { silver, cobalt, fluorite, sulphur, metaAlloy, uranium } = require("items")
 const { purpleWater, fluorine, steam, acid } = require("liquids")
 const { polity } = require("cores")
 const { idaeus } = require("planets/idaeus")
@@ -17,6 +17,9 @@ idaeus.techTree = TechTree.nodeRoot("Idaeus", polity, true, () => {
 			TechTree.nodeProduce(Items.graphite, () => {
 				TechTree.nodeProduce(Items.titanium, () => {
 					TechTree.nodeProduce(Items.tungsten, () => {
+						TechTree.nodeProduce(uranium, () => {
+							TechTree.nodeProduce(Items.fissileMatter, () => {})
+						})
 						TechTree.nodeProduce(metaAlloy, () => {})
 					})
 					TechTree.nodeProduce(cobalt, () => {})
@@ -31,6 +34,7 @@ idaeus.techTree = TechTree.nodeRoot("Idaeus", polity, true, () => {
 				TechTree.nodeProduce(fluorine, () => {})
 			})
 		})
+		TechTree.nodeProduce(Items.scrap, () => {})
 	})
 })
 

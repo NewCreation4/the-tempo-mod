@@ -37,10 +37,30 @@ ammoTypes: {
 		pierce: true
 		pierceBuilding: true
 		pierceCap: 3
-		pierceDamageFactor: 0.04
 		collidesAir: false
 
-		trailWidth: 3.5
+		fragBullet: {
+			type: BasicBulletType
+			frontColor: f8ad42
+			backColor: f68021
+			lifetime: 20
+			speed: 7
+			width: 2
+			height: 14
+			pierce: true
+			pierceBuilding: true
+			pierceCap: 2
+			damage: 7
+			collidesAir: false
+		}
+		fragBullets: 5
+		fragVelocityMin: 0.6
+		fragRandomSpread: 30
+		pierceFragCap: 4
+		fragOnDespawn: false
+		fragOnAbsorb: false
+
+		trailWidth: 4
 		trailLength: 10
 		trailColor: f9c27aff
 	}

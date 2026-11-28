@@ -1,7 +1,7 @@
 type: ItemTurret
 category: turret
 name: Steam Test
-description: Test super cool steam explosions
+description: Lobs a steam bomb over long distances.
 size: 3
 health: 1450
 
@@ -23,9 +23,9 @@ ammoPerShot: 1
 ammoTypes: {
 	titanium: {
 		type: ArtilleryBulletType
-		width: 15
-		height: 20
-		speed: 6
+		width: 17
+		height: 22
+		speed: 8
 		lifetime: 30
 		scaledSplashDamage: true
 		splashDamage: 150
@@ -51,7 +51,7 @@ ammoTypes: {
 				{
 					type: ParticleEffect
 					lifetime: 60
-					particles: 27
+					particles: 14
 					colorFrom: FFFFFFFF
 					colorTo: FFFFFF00
 					cone: 330
@@ -64,12 +64,91 @@ ammoTypes: {
 					colorInterp: smooth
 					interp: circleOut
 				}
+				{
+					type: ParticleEffect
+					lifetime: 75
+					particles: 13
+					colorFrom: FFFFFFFF
+					colorTo: FFFFFF00
+					cone: 330
+					length: 55
+					baseLength: 5
+					randLength: true
+					sizeFrom: 1
+					sizeTo: 11
+					sizeInterp: pow2Out
+					colorInterp: smooth
+					interp: circleOut
+				}
 			]
 		}
+		fragBullet: {
+			type: ArtilleryBulletType
+			width: 14
+			height: 13
+			lifetime: 60
+			splashDamage: 3
+			splashDamageRadius: 12
+			spin: 5
+			speed: 2
+			despawnShake: 1
+			lifeScaleRandMax: 1.05
+			lifeScaleRandMin: 0.6
+			trailEffect: {
+				type: ParticleEffect
+				lifetime: 50
+				particles: 1
+				length: 5
+				colorFrom: FFFFFFFF
+				colorTo: FFFFFF00
+				sizeFrom: 1
+				sizeTo: 4
+				sizeInterp: pow2Out
+				colorInterp: smooth
+				interp: circleOut
+			}
+			despawnEffect: {
+				type: MultiEffect
+				effects: [
+					{
+						type: WaveEffect
+						lifetime: 22
+						sizeFrom: 1
+						sizeTo: 14
+						strokeFrom: 4
+						strokeTo: 0
+						interp: pow2Out
+						colorFrom: "FFFFFFFF"
+						colorTo: "FFFFFFAA"
+					}
+					{
+						type: ParticleEffect
+						lifetime: 60
+						particles: 6
+						colorFrom: FFFFFFFF
+						colorTo: FFFFFF00
+						cone: 330
+						length: 10
+						baseLength: 5
+						randLength: true
+						sizeFrom: 1
+						sizeTo: 6
+						sizeInterp: pow2Out
+						colorInterp: smooth
+						interp: circleOut
+					}
+				]
+			}
+		}
+		fragBullets: 8
+		fragVelocityMin: 0.6
+		fragVelocityMax: 1.05
 		buildingDamageMultiplier: 1.5
 		armorMultiplier: 1.5
 		ammoMultiplier: 1
-		collidesAir: false
+		lifeScaleRandMax: 1.08
+		lifeScaleRandMin: 0.92
+		drag: 0.02
 	}
 }
 
